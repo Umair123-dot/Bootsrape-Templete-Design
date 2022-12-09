@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "base.css",
+	"sources": [
+		"assets/scss/base.scss"
+	],
+	"sourcesContent": [
+		"//Base\r\n$black: #000;\r\n$bgnavtop: #fdc800;\r\n\r\n.header {\r\n    .navbar-top {\r\n        background-color: $bgnavtop;\r\n        padding-block: 12px;\r\n        .contact-info {\r\n            li {\r\n                a {\r\n                    font-size: 14px;\r\n                    color: $black;\r\n                    i {\r\n                        padding-right: 10px;\r\n                    }\r\n                }\r\n\r\n                &:not(:last-child) {\r\n                    @media screen and (min-width: 768px) {\r\n                        margin-right: 54px;\r\n                    }\r\n                }\r\n            }\r\n        }\r\n        .social-icons {\r\n            li {\r\n                a {\r\n                    font-size: 13px;\r\n                    color: $black;\r\n                }\r\n                &:not(:last-child) {\r\n                    margin-right: 24px;\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n.content-wrapper {\r\n}\r\n.footer {\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAIA,AACI,OADG,CACH,WAAW,CAAC;EACR,gBAAgB,EAJb,OAAO;EAKV,aAAa,EAAE,IAAI;CA6BtB;;;AAhCL,AAMgB,OANT,CACH,WAAW,CAGP,aAAa,CACT,EAAE,CACE,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;EACf,KAAK,EAXjB,IAAI;CAeK;;;AAZjB,AASoB,OATb,CACH,WAAW,CAGP,aAAa,CACT,EAAE,CACE,CAAC,CAGG,CAAC,CAAC;EACE,aAAa,EAAE,IAAI;CACtB;;AAID,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;;EAfvD,AAcgB,OAdT,CACH,WAAW,CAGP,aAAa,CACT,EAAE,AASG,IAAK,CAAA,WAAW,EAAE;IAEX,YAAY,EAAE,IAAI;GAEzB;;;;AAlBjB,AAuBgB,OAvBT,CACH,WAAW,CAoBP,aAAa,CACT,EAAE,CACE,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;EACf,KAAK,EA5BjB,IAAI;CA6BK;;;AA1BjB,AA2BgB,OA3BT,CACH,WAAW,CAoBP,aAAa,CACT,EAAE,AAKG,IAAK,CAAA,WAAW,EAAE;EACf,YAAY,EAAE,IAAI;CACrB"
+}

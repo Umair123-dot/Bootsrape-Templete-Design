@@ -1,0 +1,36 @@
+/* line 6, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar-top {
+  background-color: #fdc800;
+  padding-block: 12px;
+}
+
+/* line 11, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar-top .contact-info li a {
+  font-size: 14px;
+  color: #000;
+}
+
+/* line 14, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar-top .contact-info li a i {
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 19, ../../Desktop/test/assets/scss/base.scss */
+  .header .navbar-top .contact-info li:not(:last-child) {
+    margin-right: 54px;
+  }
+}
+
+/* line 28, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar-top .social-icons li a {
+  font-size: 13px;
+  color: #000;
+}
+
+/* line 32, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar-top .social-icons li:not(:last-child) {
+  margin-right: 24px;
+}
+
+/*# sourceMappingURL=base.css.map */
