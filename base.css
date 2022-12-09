@@ -1,36 +1,155 @@
-/* line 6, ../../Desktop/test/assets/scss/base.scss */
+/* line 11, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top {
   background-color: #fdc800;
   padding-block: 12px;
 }
 
-/* line 11, ../../Desktop/test/assets/scss/base.scss */
+/* line 16, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .contact-info li a {
   font-size: 14px;
   color: #000;
 }
 
-/* line 14, ../../Desktop/test/assets/scss/base.scss */
+/* line 19, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .contact-info li a i {
   padding-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 19, ../../Desktop/test/assets/scss/base.scss */
+  /* line 24, ../../Desktop/test/assets/scss/base.scss */
   .header .navbar-top .contact-info li:not(:last-child) {
     margin-right: 54px;
   }
 }
 
-/* line 28, ../../Desktop/test/assets/scss/base.scss */
+/* line 33, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 32, ../../Desktop/test/assets/scss/base.scss */
+/* line 37, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .social-icons li:not(:last-child) {
   margin-right: 24px;
+}
+
+/* line 46, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar {
+  background-color: #F0F4F9;
+  height: 100px;
+}
+
+/* line 52, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .navbar-brand {
+  color: #002147;
+}
+
+/* line 56, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .navbar-nav {
+  padding-right: 100px;
+}
+
+/* line 59, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .navbar-nav .nav-item .nav-link {
+  color: #002147;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/* line 67, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .search {
+  margin-right: 134px;
+}
+
+/* line 69, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .search .btn1 {
+  background-color: #FDC800;
+  /* Green */
+  border: none;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 20px;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
+}
+
+/* line 101, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .search .has-search .form-control {
+  padding-left: 2.375rem;
+  width: 44px;
+  height: 44px;
+}
+
+/* line 107, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .search .has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #000;
+}
+
+/* line 125, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper {
+  background-color: #F0F4F9;
+}
+
+/* line 127, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper .image {
+  margin: 30px 40px 60px 10px;
+}
+
+/* line 131, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper .text {
+  margin: 115px 0px 160px 10px;
+}
+
+/* line 133, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper .text h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  color: #002147;
+}
+
+/* line 138, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper .text h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 60;
+  color: #002147;
+}
+
+/* line 144, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper .text .multi-btns .btn {
+  background-color: #FDC800;
+  /* Green */
+  border: none;
+  color: #000;
+  font-size: 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
+}
+
+/* line 158, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .it-wreapper .text .multi-btns .btn2 {
+  background-color: #ffffff;
+  /* Green */
+  border: none;
+  color: #000;
+  font-size: 12px;
+  margin-right: 10px;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=base.css.map */

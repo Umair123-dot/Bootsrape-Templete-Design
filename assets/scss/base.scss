@@ -1,8 +1,13 @@
 //Base
 $black: #000;
 $bgnavtop: #fdc800;
+$bgnavbar:#F0F4F9;
+$navlogo:#002147;
+$btnYellow:#FDC800;
+$whitebtn:#ffffff;
 
 .header {
+    // top navbar
     .navbar-top {
         background-color: $bgnavtop;
         padding-block: 12px;
@@ -35,8 +40,138 @@ $bgnavtop: #fdc800;
             }
         }
     }
+    // End Navbar
+
+    // start 
+    .navbar{
+        // top: 0;
+        // position: -webkit-sticky;
+        // position: sticky;
+        background-color:#F0F4F9;
+        height: 100px;
+        .navbar-brand{
+            color: $navlogo;
+
+        }
+        .navbar-nav{
+            padding-right: 100px;
+            .nav-item{
+                .nav-link{
+                    color:$navlogo;
+                    font-weight: bold;
+                    padding-left: 20px;
+                }
+            }
+
+        }
+        .search{
+            margin-right: 134px;
+        .btn1{
+            background-color: $btnYellow; /* Green */
+            border: none;
+            color: $black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-right: 20px;
+            border-radius: 4px;
+            
+            width: 100px;
+           
+            cursor: pointer;
+            
+        }
+        // .sign-input{
+        //     width: 44px;
+        //     height: 44px;
+        //     background-color: white;
+        //     border: 1px solid  #BDBDBD;
+        //     border-radius: 6px;
+        //     display: flex;
+        //     align-items: center;
+           
+        // }
+        // i{
+        //     font-size: 20px;
+        //     color: $black;
+        //     flex: 1;
+        // }
+
+        .has-search .form-control {
+            padding-left: 2.375rem;
+            width: 44px;
+            height: 44px;
+        }
+      
+        .has-search .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.375rem;
+            height: 2.375rem;
+            line-height: 2.375rem;
+            text-align: center;
+            pointer-events: none;
+            color:$black;
+        }
+    }
+
+    }
+
+
 }
 .content-wrapper {
+  .it-wreapper{
+    background-color: $bgnavbar;
+    .image{
+        margin: 30px 40px 60px 10px;
+
+    }
+    .text{
+        margin: 115px 0px 160px 10px;
+        h4{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            color: $navlogo;
+        }
+        h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 60;
+            color: $navlogo;
+        }
+        .multi-btns{
+            .btn{
+                background-color: $btnYellow; /* Green */
+            border: none;
+            color: $black;
+            
+            font-size: 12px;
+            margin-right: 10px;
+            border-radius: 4px;
+            
+            width: 100px;
+           
+            cursor: pointer;
+
+            }
+            .btn2{
+                background-color: $whitebtn; /* Green */
+            border: none;
+            color: $black;
+            
+            font-size: 12px;
+            margin-right: 10px;
+            border-radius: 4px;
+            
+            width: 100px;
+           
+            cursor: pointer;
+
+            }
+        }
+    }
+  }
 }
 .footer {
 }
