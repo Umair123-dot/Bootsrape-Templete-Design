@@ -1,45 +1,45 @@
-/* line 11, ../../Desktop/test/assets/scss/base.scss */
+/* line 12, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top {
   background-color: #fdc800;
   padding-block: 12px;
 }
 
-/* line 16, ../../Desktop/test/assets/scss/base.scss */
+/* line 17, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .contact-info li a {
   font-size: 14px;
   color: #000;
 }
 
-/* line 19, ../../Desktop/test/assets/scss/base.scss */
+/* line 20, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .contact-info li a i {
   padding-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 24, ../../Desktop/test/assets/scss/base.scss */
+  /* line 25, ../../Desktop/test/assets/scss/base.scss */
   .header .navbar-top .contact-info li:not(:last-child) {
     margin-right: 54px;
   }
 }
 
-/* line 33, ../../Desktop/test/assets/scss/base.scss */
+/* line 34, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 37, ../../Desktop/test/assets/scss/base.scss */
+/* line 38, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
 
-/* line 46, ../../Desktop/test/assets/scss/base.scss */
+/* line 47, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar {
-  background-color: #F0F4F9;
+  background-color: #f0f4f9;
   height: 100px;
 }
 
-/* line 52, ../../Desktop/test/assets/scss/base.scss */
+/* line 53, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-brand {
   color: #002147;
 }
@@ -56,14 +56,14 @@
   padding-left: 20px;
 }
 
-/* line 67, ../../Desktop/test/assets/scss/base.scss */
+/* line 66, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search {
   margin-right: 134px;
 }
 
-/* line 69, ../../Desktop/test/assets/scss/base.scss */
+/* line 68, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .btn1 {
-  background-color: #FDC800;
+  background-color: #fdc800;
   /* Green */
   border: none;
   color: #000;
@@ -77,14 +77,14 @@
   cursor: pointer;
 }
 
-/* line 101, ../../Desktop/test/assets/scss/base.scss */
+/* line 99, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .has-search .form-control {
   padding-left: 2.375rem;
   width: 44px;
   height: 44px;
 }
 
-/* line 107, ../../Desktop/test/assets/scss/base.scss */
+/* line 105, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
@@ -97,49 +97,51 @@
   color: #000;
 }
 
-/* line 125, ../../Desktop/test/assets/scss/base.scss */
+/* line 120, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper {
-  background-color: #F0F4F9;
+  background-color: #f0f4f9;
 }
 
-/* line 127, ../../Desktop/test/assets/scss/base.scss */
+/* line 122, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .image {
   margin: 30px 40px 60px 10px;
 }
 
-/* line 131, ../../Desktop/test/assets/scss/base.scss */
+/* line 125, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text {
   margin: 115px 0px 160px 10px;
 }
 
-/* line 133, ../../Desktop/test/assets/scss/base.scss */
+/* line 127, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h4 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #002147;
 }
 
-/* line 138, ../../Desktop/test/assets/scss/base.scss */
+/* line 132, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h1 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 60;
   color: #002147;
 }
 
-/* line 144, ../../Desktop/test/assets/scss/base.scss */
+/* line 138, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn {
-  background-color: #FDC800;
+  background-color: #fdc800;
   /* Green */
   border: none;
   color: #000;
-  font-size: 12px;
+  height: 40px;
+  padding-top: 10px;
+  font-size: 13px;
   margin-right: 10px;
   border-radius: 4px;
   width: 100px;
   cursor: pointer;
 }
 
-/* line 158, ../../Desktop/test/assets/scss/base.scss */
+/* line 152, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn2 {
   background-color: #ffffff;
   /* Green */
@@ -150,6 +152,159 @@
   border-radius: 4px;
   width: 100px;
   cursor: pointer;
+}
+
+/* line 169, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container {
+  background-color: #002147;
+  color: #ffffff;
+  height: 198px;
+  position: absolute;
+}
+
+/* line 175, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .image-text .image {
+  padding-left: 30px;
+}
+
+/* line 178, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .image-text .text-up {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+/* line 182, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .image-text .text-up .change-text-c {
+  color: #fdc800;
+}
+
+/* line 188, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .lanch-time .time {
+  flex-basis: 100px;
+  margin-left: 30px;
+}
+
+/* line 192, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .lanch-time .time .t-hours {
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: -12px;
+  font-family: "Glory", sans-serif;
+  font-weight: 1000;
+}
+
+/* line 200, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .lanch-time .time .t-hours .time-dot {
+  padding-left: 25px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* line 208, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .container .lanch-time .time .t-minutes {
+  margin-left: 5px;
+}
+
+/* line 219, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .top-feature-wrappers .card-image {
+  position: relative;
+}
+
+/* line 222, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .top-feature-wrappers .card-image .card-short-image {
+  position: absolute;
+  top: 72%;
+  left: 10px;
+  border: 7px solid #ffffff;
+}
+
+/* line 229, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .top-feature-wrappers .card-heading {
+  padding-top: 15px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #002147;
+}
+
+/* line 236, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .top-feature-wrappers .card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #757575;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/* line 244, ../../Desktop/test/assets/scss/base.scss */
+.footer {
+  background-color: #002147;
+}
+
+/* line 247, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top {
+  color: #ffffff;
+}
+
+/* line 251, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .contact-info1 li a {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* line 254, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .contact-info1 li a i {
+  padding-right: 10px;
+}
+
+/* line 271, ../../Desktop/test/assets/scss/base.scss */
+.footer .ftr-bottom .container {
+  background-color: #fdc800;
+  height: 92px;
+}
+
+/* line 274, ../../Desktop/test/assets/scss/base.scss */
+.footer .ftr-bottom .container .copyright {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+/* line 278, ../../Desktop/test/assets/scss/base.scss */
+.footer .ftr-bottom .container .footer-right {
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+/* line 285, ../../Desktop/test/assets/scss/base.scss */
+.footer .ftr-bottom .container .social-icons li a {
+  font-size: 13px;
+  color: #000;
+}
+
+/* line 289, ../../Desktop/test/assets/scss/base.scss */
+.footer .ftr-bottom .container .social-icons li:not(:last-child) {
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 667px) {
+  /* line 299, ../../Desktop/test/assets/scss/base.scss */
+  .image {
+    width: 300px;
+    margin: 0;
+    padding-bottom: 100px;
+  }
+  /* line 304, ../../Desktop/test/assets/scss/base.scss */
+  .copyright {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 309, ../../Desktop/test/assets/scss/base.scss */
+  .lanch-time {
+    font-size: 5px;
+    margin-left: -15px;
+  }
 }
 
 /*# sourceMappingURL=base.css.map */
