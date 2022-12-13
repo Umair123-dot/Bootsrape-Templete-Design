@@ -1,4 +1,5 @@
 //Base
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;500;600;700&family=Noto+Sans+Georgian:wght@300;400;500;600;800&family=Nunito:wght@200&display=swap');
 $black: #000;
 $bgnavtop: #fdc800;
 $bgnavbar: #f0f4f9;
@@ -7,6 +8,9 @@ $btnYellow: #fdc800;
 $whitebtn: #ffffff;
 $cardfont: #757575;
 
+* {
+    font-family: "Inter", sans-serif;
+}
 .header {
     // top navbar
     .navbar-top {
@@ -118,6 +122,7 @@ $cardfont: #757575;
 }
 .content-wrapper {
     .it-wreapper {
+        padding-bottom: 87px;
         background-color: $bgnavbar;
         .image {
             margin: 30px 40px 60px 10px;
@@ -166,11 +171,14 @@ $cardfont: #757575;
         }
     }
     .timing-wrapper {
+     
+        .timing-inner-wrapper{
+            position: relative;
+        margin-top: -87px;
+        }
         .container {
             background-color: $navlogo;
             color: $whitebtn;
-            height: 198px;
-            position: absolute;
             .image-text {
                 .image {
                     padding-left: 30px;
@@ -215,6 +223,9 @@ $cardfont: #757575;
 
     .top-feature-wrappers {
         .top-heading {
+            color: $navlogo;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .card-image {
             position: relative;
@@ -240,19 +251,175 @@ $cardfont: #757575;
             margin-top: 20px;
         }
     }
+    // subscribe-------------------------------------------------------------------------------------
+    .suscribe-wrapper {
+        .subscribe-image {
+            margin-left: 90px;
+            
+        }
+
+
+        .sus-content {
+            margin-top: 180px;
+            .form-input{
+                position: relative;
+                .btn-umair{
+                    position: absolute;
+                    background-color: $bgnavtop;
+                    margin-left: 313px;
+                    width: 164px;
+                    border-radius: 5px;
+                    margin-top: 2px;
+                    border: 1px solid $whitebtn;
+                    color: #002147;
+                    padding-top: 5px;
+                    
+                }
+                .icon {
+                    
+                    position: absolute;
+                    left: 15px;
+                    top: 0;
+                    font-size: 25px;
+                    color:$black;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                input {
+                    border: 1px solid #BDBDBD;
+                    border-radius: 5px;
+                    padding: 5px 10px 5px 50px;
+                    font-size: 18px;
+                    line-height: 30px;
+                    outline: 0;
+                    display: block;
+                    width: 88%;
+                }
+            }
+            .subs-heading {
+                font-size: 16px;
+                color: $bgnavtop;
+                font-weight: bold;
+            }
+        }
+        .main-heading {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 48px;
+            color: $navlogo;
+        }
+    }
+
+    .result-rapper{
+        background-color: #F0F4F9;
+       .container{
+        background: url("/assets/images/map.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .result-seciton{
+            
+        .result-image{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .result-para{
+          
+        .result-number{
+            margin-right: -40px;
+            margin-top: -50px;
+            color: $navlogo;
+            font-family: 'Noto Sans Georgian', sans-serif;
+            font-size: 60px;
+            font-weight: bold;
+
+        }
+        .result-alph{
+            margin-top: -30px;
+            font-size: 16px;
+            margin-bottom: 40px;
+            color: #00B2B2;
+            font-weight: bold;
+            font-family: 'Noto Sans Georgian', sans-serif;
+            margin-left: 40px;
+        }
+    }
+    }
+        .result-heading{
+            
+        }
+       }
+    }
+
+
+    .feedback-wrapper{
+        .feeback-row{
+        .feedback-main-image{
+             margin-left: 30px;
+             margin-top: 30px;
+             margin-bottom: 30px;
+            .feed-upper-image{
+              margin-top:30px;
+              margin-left: 30px;
+              background-color: $btnYellow;
+              border-radius: 3px;
+              padding: 10px 10px 10px 10px;
+            }
+            .feedback-content{
+                background-color: white;
+                width: 400px;
+                border-radius: 3px;
+                .feed-heading{
+                     color: #212529;
+                     font-size: 20px;
+                     padding-top: 25px;
+                     font-family:Georgia, 'Times New Roman', Times, serif;
+                    
+                }
+                .feed-sub-heading{
+                    color: #757575;
+                    font-size: 14px;
+                    margin-top: -15px;
+                }
+ 
+            }
+        }
+    }
+    }
 }
 .footer {
     // .footer-top{
     background-color: #002147;
-    .footer-top{
+    .footer-top {
         color: $whitebtn;
+
+        .ft-info-heading {
+            font-size: 20px;
+        }
+        .info-footer-top {
+            margin-left: 1px;
+            li {
+                padding-top: 10px;
+            }
+            .ft-info-link {
+                color: $whitebtn;
+                font-weight: 300;
+                margin-top: 10px;
+            }
+        }
         .contact-info1 {
             li {
+                padding-top: 10px;
                 a {
                     font-size: 14px;
                     color: $whitebtn;
+                    font-family: "Inter", sans-serif;
+                    font-weight: 300;
                     i {
-                        padding-right: 10px;
+                        color: $whitebtn;
+                        padding-right: 6px;
+                        margin-left: 6px;
                     }
                 }
 
@@ -279,7 +446,7 @@ $cardfont: #757575;
                 padding-top: 40px;
                 padding-right: 50px;
             }
-         
+
             .social-icons {
                 li {
                     a {
@@ -310,4 +477,13 @@ $cardfont: #757575;
         font-size: 5px;
         margin-left: -15px;
     }
+}
+
+@media screen and(min-width:768px) and (max-width:1199px){
+  .sus-content{
+    margin-bottom: 150px;
+    .btn-umair{
+      margin-left: -100px;
+    }
+  }
 }

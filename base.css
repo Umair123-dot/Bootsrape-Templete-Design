@@ -1,67 +1,73 @@
-/* line 12, ../../Desktop/test/assets/scss/base.scss */
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;500;600;700&family=Noto+Sans+Georgian:wght@300;400;500;600;800&family=Nunito:wght@200&display=swap");
+/* line 11, ../../Desktop/test/assets/scss/base.scss */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* line 16, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top {
   background-color: #fdc800;
   padding-block: 12px;
 }
 
-/* line 17, ../../Desktop/test/assets/scss/base.scss */
+/* line 21, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .contact-info li a {
   font-size: 14px;
   color: #000;
 }
 
-/* line 20, ../../Desktop/test/assets/scss/base.scss */
+/* line 24, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .contact-info li a i {
   padding-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 25, ../../Desktop/test/assets/scss/base.scss */
+  /* line 29, ../../Desktop/test/assets/scss/base.scss */
   .header .navbar-top .contact-info li:not(:last-child) {
     margin-right: 54px;
   }
 }
 
-/* line 34, ../../Desktop/test/assets/scss/base.scss */
+/* line 38, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 38, ../../Desktop/test/assets/scss/base.scss */
+/* line 42, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar-top .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
 
-/* line 47, ../../Desktop/test/assets/scss/base.scss */
+/* line 51, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar {
   background-color: #f0f4f9;
   height: 100px;
 }
 
-/* line 53, ../../Desktop/test/assets/scss/base.scss */
+/* line 57, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-brand {
   color: #002147;
 }
 
-/* line 56, ../../Desktop/test/assets/scss/base.scss */
+/* line 60, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-nav {
   padding-right: 100px;
 }
 
-/* line 59, ../../Desktop/test/assets/scss/base.scss */
+/* line 63, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-nav .nav-item .nav-link {
   color: #002147;
   font-weight: bold;
   padding-left: 20px;
 }
 
-/* line 66, ../../Desktop/test/assets/scss/base.scss */
+/* line 70, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search {
   margin-right: 134px;
 }
 
-/* line 68, ../../Desktop/test/assets/scss/base.scss */
+/* line 72, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .btn1 {
   background-color: #fdc800;
   /* Green */
@@ -77,14 +83,14 @@
   cursor: pointer;
 }
 
-/* line 99, ../../Desktop/test/assets/scss/base.scss */
+/* line 103, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .has-search .form-control {
   padding-left: 2.375rem;
   width: 44px;
   height: 44px;
 }
 
-/* line 105, ../../Desktop/test/assets/scss/base.scss */
+/* line 109, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
@@ -97,36 +103,37 @@
   color: #000;
 }
 
-/* line 120, ../../Desktop/test/assets/scss/base.scss */
+/* line 124, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper {
+  padding-bottom: 87px;
   background-color: #f0f4f9;
 }
 
-/* line 122, ../../Desktop/test/assets/scss/base.scss */
+/* line 127, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .image {
   margin: 30px 40px 60px 10px;
 }
 
-/* line 125, ../../Desktop/test/assets/scss/base.scss */
+/* line 130, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text {
   margin: 115px 0px 160px 10px;
 }
 
-/* line 127, ../../Desktop/test/assets/scss/base.scss */
+/* line 132, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h4 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #002147;
 }
 
-/* line 132, ../../Desktop/test/assets/scss/base.scss */
+/* line 137, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 60;
   color: #002147;
 }
 
-/* line 138, ../../Desktop/test/assets/scss/base.scss */
+/* line 143, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn {
   background-color: #fdc800;
   /* Green */
@@ -141,7 +148,7 @@
   cursor: pointer;
 }
 
-/* line 152, ../../Desktop/test/assets/scss/base.scss */
+/* line 157, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn2 {
   background-color: #ffffff;
   /* Green */
@@ -154,38 +161,42 @@
   cursor: pointer;
 }
 
-/* line 169, ../../Desktop/test/assets/scss/base.scss */
+/* line 175, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper {
+  position: relative;
+  margin-top: -87px;
+}
+
+/* line 179, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container {
   background-color: #002147;
   color: #ffffff;
-  height: 198px;
-  position: absolute;
 }
 
-/* line 175, ../../Desktop/test/assets/scss/base.scss */
+/* line 183, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .image-text .image {
   padding-left: 30px;
 }
 
-/* line 178, ../../Desktop/test/assets/scss/base.scss */
+/* line 186, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .image-text .text-up {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   margin-left: 15px;
 }
 
-/* line 182, ../../Desktop/test/assets/scss/base.scss */
+/* line 190, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .image-text .text-up .change-text-c {
   color: #fdc800;
 }
 
-/* line 188, ../../Desktop/test/assets/scss/base.scss */
+/* line 196, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time {
   flex-basis: 100px;
   margin-left: 30px;
 }
 
-/* line 192, ../../Desktop/test/assets/scss/base.scss */
+/* line 200, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time .t-hours {
   margin-top: 50px;
   font-size: 50px;
@@ -194,24 +205,31 @@
   font-weight: 1000;
 }
 
-/* line 200, ../../Desktop/test/assets/scss/base.scss */
+/* line 208, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time .t-hours .time-dot {
   padding-left: 25px;
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* line 208, ../../Desktop/test/assets/scss/base.scss */
+/* line 216, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time .t-minutes {
   margin-left: 5px;
 }
 
-/* line 219, ../../Desktop/test/assets/scss/base.scss */
+/* line 225, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .top-feature-wrappers .top-heading {
+  color: #002147;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* line 230, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-image {
   position: relative;
 }
 
-/* line 222, ../../Desktop/test/assets/scss/base.scss */
+/* line 233, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-image .card-short-image {
   position: absolute;
   top: 72%;
@@ -219,7 +237,7 @@
   border: 7px solid #ffffff;
 }
 
-/* line 229, ../../Desktop/test/assets/scss/base.scss */
+/* line 240, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-heading {
   padding-top: 15px;
   font-weight: bold;
@@ -228,7 +246,7 @@
   color: #002147;
 }
 
-/* line 236, ../../Desktop/test/assets/scss/base.scss */
+/* line 247, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-text {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #757575;
@@ -236,74 +254,261 @@
   margin-top: 20px;
 }
 
-/* line 244, ../../Desktop/test/assets/scss/base.scss */
+/* line 256, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .subscribe-image {
+  margin-left: 90px;
+}
+
+/* line 262, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .sus-content {
+  margin-top: 180px;
+}
+
+/* line 264, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .sus-content .form-input {
+  position: relative;
+}
+
+/* line 266, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .sus-content .form-input .btn-umair {
+  position: absolute;
+  background-color: #fdc800;
+  margin-left: 313px;
+  width: 164px;
+  border-radius: 5px;
+  margin-top: 2px;
+  border: 1px solid #ffffff;
+  color: #002147;
+  padding-top: 5px;
+}
+
+/* line 278, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .sus-content .form-input .icon {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  font-size: 25px;
+  color: #000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 290, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .sus-content .form-input input {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 5px 10px 5px 50px;
+  font-size: 18px;
+  line-height: 30px;
+  outline: 0;
+  display: block;
+  width: 88%;
+}
+
+/* line 301, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .sus-content .subs-heading {
+  font-size: 16px;
+  color: #fdc800;
+  font-weight: bold;
+}
+
+/* line 307, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .main-heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 48px;
+  color: #002147;
+}
+
+/* line 314, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper {
+  background-color: #F0F4F9;
+}
+
+/* line 316, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container {
+  background: url("/assets/images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 323, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container .result-seciton .result-image {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 329, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container .result-seciton .result-para .result-number {
+  margin-right: -40px;
+  margin-top: -50px;
+  color: #002147;
+  font-family: 'Noto Sans Georgian', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* line 338, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container .result-seciton .result-para .result-alph {
+  margin-top: -30px;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #00B2B2;
+  font-weight: bold;
+  font-family: 'Noto Sans Georgian', sans-serif;
+  margin-left: 40px;
+}
+
+/* line 358, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .feeback-row .feedback-main-image {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 362, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feed-upper-image {
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color: #fdc800;
+  border-radius: 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+/* line 369, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feedback-content {
+  background-color: white;
+  width: 400px;
+  border-radius: 3px;
+}
+
+/* line 373, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feedback-content .feed-heading {
+  color: #212529;
+  font-size: 20px;
+  padding-top: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* line 380, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feedback-content .feed-sub-heading {
+  color: #757575;
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+/* line 391, ../../Desktop/test/assets/scss/base.scss */
 .footer {
   background-color: #002147;
 }
 
-/* line 247, ../../Desktop/test/assets/scss/base.scss */
+/* line 394, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top {
   color: #ffffff;
 }
 
-/* line 251, ../../Desktop/test/assets/scss/base.scss */
+/* line 397, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .ft-info-heading {
+  font-size: 20px;
+}
+
+/* line 400, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .info-footer-top {
+  margin-left: 1px;
+}
+
+/* line 402, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .info-footer-top li {
+  padding-top: 10px;
+}
+
+/* line 405, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .info-footer-top .ft-info-link {
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+/* line 412, ../../Desktop/test/assets/scss/base.scss */
+.footer .footer-top .contact-info1 li {
+  padding-top: 10px;
+}
+
+/* line 414, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a {
   font-size: 14px;
   color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
 }
 
-/* line 254, ../../Desktop/test/assets/scss/base.scss */
+/* line 419, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a i {
-  padding-right: 10px;
+  color: #ffffff;
+  padding-right: 6px;
+  margin-left: 6px;
 }
 
-/* line 271, ../../Desktop/test/assets/scss/base.scss */
+/* line 438, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container {
   background-color: #fdc800;
   height: 92px;
 }
 
-/* line 274, ../../Desktop/test/assets/scss/base.scss */
+/* line 441, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .copyright {
   margin-top: 40px;
   margin-left: 10px;
 }
 
-/* line 278, ../../Desktop/test/assets/scss/base.scss */
+/* line 445, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .footer-right {
   padding-top: 40px;
   padding-right: 50px;
 }
 
-/* line 285, ../../Desktop/test/assets/scss/base.scss */
+/* line 452, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 289, ../../Desktop/test/assets/scss/base.scss */
+/* line 456, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
 
 @media screen and (max-width: 667px) {
-  /* line 299, ../../Desktop/test/assets/scss/base.scss */
+  /* line 466, ../../Desktop/test/assets/scss/base.scss */
   .image {
     width: 300px;
     margin: 0;
     padding-bottom: 100px;
   }
-  /* line 304, ../../Desktop/test/assets/scss/base.scss */
+  /* line 471, ../../Desktop/test/assets/scss/base.scss */
   .copyright {
     font-size: 9px;
   }
 }
 
 @media screen and (max-width: 992px) {
-  /* line 309, ../../Desktop/test/assets/scss/base.scss */
+  /* line 476, ../../Desktop/test/assets/scss/base.scss */
   .lanch-time {
     font-size: 5px;
     margin-left: -15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 483, ../../Desktop/test/assets/scss/base.scss */
+  .sus-content {
+    margin-bottom: 150px;
+  }
+  /* line 485, ../../Desktop/test/assets/scss/base.scss */
+  .sus-content .btn-umair {
+    margin-left: -100px;
   }
 }
 
