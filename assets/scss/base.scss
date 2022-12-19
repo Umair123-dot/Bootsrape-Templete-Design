@@ -53,8 +53,7 @@ $cardfont: #757575;
         // position: -webkit-sticky;
         // position: sticky;
         background-color: $bgnavbar;
-        
-        
+
         .navbar-brand {
             color: $navlogo;
         }
@@ -65,11 +64,15 @@ $cardfont: #757575;
                     color: $navlogo;
                     font-weight: bold;
                     padding-left: 20px;
+                    padding-right: 20px;
+                    &:hover {
+                        background-color: $btnYellow;
+                        border-radius: 2px;
+                    }
                 }
             }
         }
         .search {
-            margin-right: 134px;
             .btn1 {
                 background-color: $btnYellow; /* Green */
                 border: none;
@@ -84,6 +87,10 @@ $cardfont: #757575;
                 width: 100px;
 
                 cursor: pointer;
+                &:hover {
+                    background-color: $black;
+                    color: $whitebtn;
+                }
             }
             // .sign-input{
             //     width: 44px;
@@ -126,9 +133,8 @@ $cardfont: #757575;
     .it-wreapper {
         padding-bottom: 87px;
         background-color: $bgnavbar;
-        @media(max-width:667px){
-            .text{
-                
+        @media (max-width: 667px) {
+            .text {
             }
         }
         .image {
@@ -199,11 +205,7 @@ $cardfont: #757575;
                 }
             }
             .lanch-time {
-
-
-                @media(min-width:667px) and (max-width:992px){
-                    
-
+                @media (min-width: 667px) and (max-width: 992px) {
                 }
                 .time {
                     flex-basis: 100px;
@@ -235,7 +237,7 @@ $cardfont: #757575;
 
     .top-feature-wrappers {
         margin-bottom: 50px;
-       
+
         .top-heading {
             color: $navlogo;
             font-weight: bold;
@@ -271,9 +273,13 @@ $cardfont: #757575;
         .subscribe-image {
             margin-left: 90px;
         }
+        .subscribe-image {
+            margin-left: 90px;
+        }
 
         .sus-content {
             margin-top: 180px;
+
             .form-input {
                 position: relative;
                 .btn-umair {
@@ -281,13 +287,12 @@ $cardfont: #757575;
                     background-color: $bgnavtop;
                     right: 2px;
                     top: 2px;
-                   // margin-left: 313px;
+                    // margin-left: 313px;
                     //width: 164px;
                     border-radius: 5px;
-                    
+
                     border: 1px solid $whitebtn;
                     color: #002147;
-                    
                 }
                 .icon {
                     position: absolute;
@@ -309,7 +314,6 @@ $cardfont: #757575;
                     outline: 0;
                     display: block;
                     width: 100%;
-                    
                 }
             }
             .subs-heading {
@@ -322,6 +326,16 @@ $cardfont: #757575;
             font-family: Georgia, "Times New Roman", Times, serif;
             font-size: 48px;
             color: $navlogo;
+        }
+        @media (max-width: 678px) {
+            .sus-content {
+                margin-top: 4px;
+                padding-bottom: 20px;
+            }
+            .subscribe-image {
+                padding-top: 10px;
+                margin-left: 30px;
+            }
         }
     }
 
@@ -372,10 +386,10 @@ $cardfont: #757575;
                 .feed-upper-image {
                     margin-top: 30px;
                     margin-left: 30px;
-                    z-index: 1;
+
                     background-color: $btnYellow;
                     border-radius: 3px;
-                    padding: 10px 10px 10px 10px;
+                    padding: 5px 5px 5px 5px;
                 }
                 .feedback-content {
                     background-color: white;
@@ -551,31 +565,118 @@ $cardfont: #757575;
             }
         }
     }
-    .practice-rapper{
-        .form{
+    .practice-rapper {
+        .form {
             position: relative;
-            .fa-solid{
-                
+            .fa-solid {
                 position: absolute;
-                transform: translate(12px,13px);
+                transform: translate(12px, 13px);
                 top: 0px;
                 left: 0px;
-                    
-                
             }
-            .umair-btn{
+            .umair-btn {
                 position: absolute;
                 right: 0px;
-                top:0px ;
+                top: 0px;
             }
-            input{
+            input {
                 padding: 10px;
             }
-         
-            
-          
         }
-        
+    }
+
+    .course-wrapper {
+        &::before{
+            position: relative;
+            content: "";
+            background-color: red;
+            width: 100%;
+            height: 100%;
+            top:40%;
+            z-index: -1;
+        }
+        .course-relate{
+            
+        .course-content{
+            
+            .course-head-small {
+                color: $bgnavtop;
+                font-size: 16px;
+            }
+            .couse-head-large {
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-size: 48px;
+                color: $navlogo;
+                font-weight: bold;
+                margin-top: -10px;
+            }
+        }
+
+        .label {
+            color: #002147;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .btn-group {
+            .course-button {
+                margin-left: 3px;
+                background-color: $whitebtn;
+                border-top: 2px solid $cardfont;
+                border-left: 2px solid $cardfont;
+                border-bottom: 2px solid $cardfont;
+            }
+            .btn {
+                border-radius: 1px;
+            }
+            .course-drop-arrow {
+                border-top: 2px solid $cardfont;
+                border-right: 2px solid $cardfont;
+                border-bottom: 2px solid $cardfont;
+            }
+        }
+    }
+
+    .select-course-wrapper {
+
+        .card {
+            .image-card{
+                background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+                background-repeat: no-repeat;
+                 background-size: cover;
+                min-height: 200px;
+                padding: 20px;
+                border-bottom: 0px;
+                .image-sort {
+                    position: relative;
+                    bottom: -40px;
+                    border: 10px solid $whitebtn;
+                }
+            }
+            .card-content-area{
+                padding-left: 28px;
+                .card-heading1{
+                    padding-top: 24px;
+                    font-weight: bold;
+                    font-family: "Times New Roman", Times, serif;
+                    font-size: 15px;
+                    color: $navlogo;
+                }
+                .card-text{
+                    
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    color: $cardfont;
+                    font-size: 14px;
+                    margin-top: 10px;
+
+                }
+            }
+            // .image-large {
+            //     .image-large {
+            //         height: 100%;
+            //     }
+                
+            // }
+        }}
     }
 }
 .footer {
@@ -653,17 +754,15 @@ $cardfont: #757575;
     }
 }
 
-@media(max-width:567px){
-    .navbar  {
+@media (max-width: 567px) {
+    .navbar {
         padding: 28px 0;
-
     }
-    a.nav-link{
-        
+    a.nav-link {
     }
 }
 
-@media screen and (max-width: 667px) {
+@media (max-width: 667px) {
     .image {
         width: 300px;
         margin: 0;
@@ -676,6 +775,9 @@ $cardfont: #757575;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .feedback-content {
+        width: 300px;
     }
 }
 @media screen and (max-width: 992px) {

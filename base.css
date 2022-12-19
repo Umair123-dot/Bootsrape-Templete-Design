@@ -44,29 +44,31 @@
   background-color: #f0f4f9;
 }
 
-/* line 58, ../../Desktop/test/assets/scss/base.scss */
+/* line 57, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-brand {
   color: #002147;
 }
 
-/* line 61, ../../Desktop/test/assets/scss/base.scss */
+/* line 60, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-nav {
   padding-right: 100px;
 }
 
-/* line 64, ../../Desktop/test/assets/scss/base.scss */
+/* line 63, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .navbar-nav .nav-item .nav-link {
   color: #002147;
   font-weight: bold;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
-/* line 71, ../../Desktop/test/assets/scss/base.scss */
-.header .navbar .search {
-  margin-right: 134px;
+/* line 68, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: #fdc800;
+  border-radius: 2px;
 }
 
-/* line 73, ../../Desktop/test/assets/scss/base.scss */
+/* line 76, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .btn1 {
   background-color: #fdc800;
   /* Green */
@@ -82,7 +84,13 @@
   cursor: pointer;
 }
 
-/* line 104, ../../Desktop/test/assets/scss/base.scss */
+/* line 90, ../../Desktop/test/assets/scss/base.scss */
+.header .navbar .search .btn1:hover {
+  background-color: #000;
+  color: #ffffff;
+}
+
+/* line 111, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .has-search .form-control {
   padding-left: 1.375rem;
   margin-top: 3px;
@@ -90,7 +98,7 @@
   height: 44px;
 }
 
-/* line 111, ../../Desktop/test/assets/scss/base.scss */
+/* line 118, ../../Desktop/test/assets/scss/base.scss */
 .header .navbar .search .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
@@ -103,37 +111,37 @@
   color: #000;
 }
 
-/* line 126, ../../Desktop/test/assets/scss/base.scss */
+/* line 133, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper {
   padding-bottom: 87px;
   background-color: #f0f4f9;
 }
 
-/* line 134, ../../Desktop/test/assets/scss/base.scss */
+/* line 140, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .image {
   margin: 30px 40px 60px 10px;
 }
 
-/* line 137, ../../Desktop/test/assets/scss/base.scss */
+/* line 143, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text {
   margin: 115px 0px 160px 10px;
 }
 
-/* line 139, ../../Desktop/test/assets/scss/base.scss */
+/* line 145, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h4 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #002147;
 }
 
-/* line 144, ../../Desktop/test/assets/scss/base.scss */
+/* line 150, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 60;
   color: #002147;
 }
 
-/* line 150, ../../Desktop/test/assets/scss/base.scss */
+/* line 156, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn {
   background-color: #fdc800;
   /* Green */
@@ -148,7 +156,7 @@
   cursor: pointer;
 }
 
-/* line 164, ../../Desktop/test/assets/scss/base.scss */
+/* line 170, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn-second {
   background-color: #ffffff;
   /* Green */
@@ -161,42 +169,42 @@
   cursor: pointer;
 }
 
-/* line 181, ../../Desktop/test/assets/scss/base.scss */
+/* line 187, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .timing-inner-wrapper {
   position: relative;
   margin-top: -87px;
 }
 
-/* line 185, ../../Desktop/test/assets/scss/base.scss */
+/* line 191, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container {
   background-color: #002147;
   color: #ffffff;
 }
 
-/* line 189, ../../Desktop/test/assets/scss/base.scss */
+/* line 195, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .image-text .image {
   padding-left: 30px;
 }
 
-/* line 192, ../../Desktop/test/assets/scss/base.scss */
+/* line 198, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .image-text .text-up {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   margin-left: 15px;
 }
 
-/* line 196, ../../Desktop/test/assets/scss/base.scss */
+/* line 202, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .image-text .text-up .change-text-c {
   color: #fdc800;
 }
 
-/* line 208, ../../Desktop/test/assets/scss/base.scss */
+/* line 210, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time {
   flex-basis: 100px;
   margin-left: 30px;
 }
 
-/* line 212, ../../Desktop/test/assets/scss/base.scss */
+/* line 214, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time .t-hours {
   margin-top: 50px;
   font-size: 50px;
@@ -205,36 +213,36 @@
   font-weight: 1000;
 }
 
-/* line 220, ../../Desktop/test/assets/scss/base.scss */
+/* line 222, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time .t-hours .time-dot {
   padding-left: 25px;
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* line 228, ../../Desktop/test/assets/scss/base.scss */
+/* line 230, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .container .lanch-time .time .t-minutes {
   margin-left: 5px;
 }
 
-/* line 236, ../../Desktop/test/assets/scss/base.scss */
+/* line 238, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers {
   margin-bottom: 50px;
 }
 
-/* line 239, ../../Desktop/test/assets/scss/base.scss */
+/* line 241, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .top-heading {
   color: #002147;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 245, ../../Desktop/test/assets/scss/base.scss */
+/* line 247, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-image {
   position: relative;
 }
 
-/* line 248, ../../Desktop/test/assets/scss/base.scss */
+/* line 250, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-image .card-short-image {
   position: absolute;
   top: 72%;
@@ -242,7 +250,7 @@
   border: 7px solid #ffffff;
 }
 
-/* line 255, ../../Desktop/test/assets/scss/base.scss */
+/* line 257, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-heading {
   padding-top: 15px;
   font-weight: bold;
@@ -251,7 +259,7 @@
   color: #002147;
 }
 
-/* line 262, ../../Desktop/test/assets/scss/base.scss */
+/* line 264, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card-text {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #757575;
@@ -259,22 +267,27 @@
   margin-top: 20px;
 }
 
-/* line 271, ../../Desktop/test/assets/scss/base.scss */
+/* line 273, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .subscribe-image {
   margin-left: 90px;
 }
 
-/* line 275, ../../Desktop/test/assets/scss/base.scss */
+/* line 276, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .subscribe-image {
+  margin-left: 90px;
+}
+
+/* line 280, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content {
   margin-top: 180px;
 }
 
-/* line 277, ../../Desktop/test/assets/scss/base.scss */
+/* line 283, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input {
   position: relative;
 }
 
-/* line 279, ../../Desktop/test/assets/scss/base.scss */
+/* line 285, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input .btn-umair {
   position: absolute;
   background-color: #fdc800;
@@ -285,7 +298,7 @@
   color: #002147;
 }
 
-/* line 292, ../../Desktop/test/assets/scss/base.scss */
+/* line 297, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input .icon {
   position: absolute;
   left: 15px;
@@ -298,7 +311,7 @@
   justify-content: center;
 }
 
-/* line 303, ../../Desktop/test/assets/scss/base.scss */
+/* line 308, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input input {
   border: 1px solid #bdbdbd;
   border-radius: 5px;
@@ -310,26 +323,39 @@
   width: 100%;
 }
 
-/* line 315, ../../Desktop/test/assets/scss/base.scss */
+/* line 319, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .subs-heading {
   font-size: 16px;
   color: #fdc800;
   font-weight: bold;
 }
 
-/* line 321, ../../Desktop/test/assets/scss/base.scss */
+/* line 325, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .main-heading {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 48px;
   color: #002147;
 }
 
-/* line 328, ../../Desktop/test/assets/scss/base.scss */
+@media (max-width: 678px) {
+  /* line 331, ../../Desktop/test/assets/scss/base.scss */
+  .content-wrapper .suscribe-wrapper .sus-content {
+    margin-top: 4px;
+    padding-bottom: 20px;
+  }
+  /* line 335, ../../Desktop/test/assets/scss/base.scss */
+  .content-wrapper .suscribe-wrapper .subscribe-image {
+    padding-top: 10px;
+    margin-left: 30px;
+  }
+}
+
+/* line 342, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .result-rapper {
   background-color: #f0f4f9;
 }
 
-/* line 330, ../../Desktop/test/assets/scss/base.scss */
+/* line 344, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .result-rapper .container {
   background: url("/assets/images/map.png");
   background-position: center;
@@ -337,13 +363,13 @@
   background-size: cover;
 }
 
-/* line 336, ../../Desktop/test/assets/scss/base.scss */
+/* line 350, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .result-rapper .container .result-seciton .result-image {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* line 341, ../../Desktop/test/assets/scss/base.scss */
+/* line 355, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .result-rapper .container .result-seciton .result-para .result-number {
   margin-right: -40px;
   margin-top: -50px;
@@ -353,7 +379,7 @@
   font-weight: bold;
 }
 
-/* line 349, ../../Desktop/test/assets/scss/base.scss */
+/* line 363, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .result-rapper .container .result-seciton .result-para .result-alph {
   margin-top: -30px;
   font-size: 16px;
@@ -364,31 +390,30 @@
   margin-left: 40px;
 }
 
-/* line 368, ../../Desktop/test/assets/scss/base.scss */
+/* line 382, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feeback-row .feedback-main-image {
   margin-left: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/* line 372, ../../Desktop/test/assets/scss/base.scss */
+/* line 386, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feed-upper-image {
   margin-top: 30px;
   margin-left: 30px;
-  z-index: 1;
   background-color: #fdc800;
   border-radius: 3px;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
 }
 
-/* line 380, ../../Desktop/test/assets/scss/base.scss */
+/* line 394, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feedback-content {
   background-color: white;
   width: 400px;
   border-radius: 3px;
 }
 
-/* line 384, ../../Desktop/test/assets/scss/base.scss */
+/* line 398, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feedback-content .feed-heading {
   color: #212529;
   font-size: 20px;
@@ -396,19 +421,19 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 390, ../../Desktop/test/assets/scss/base.scss */
+/* line 404, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feeback-row .feedback-main-image .feedback-content .feed-sub-heading {
   color: #757575;
   font-size: 14px;
   margin-top: -15px;
 }
 
-/* line 399, ../../Desktop/test/assets/scss/base.scss */
+/* line 413, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con {
   margin-top: 12px;
 }
 
-/* line 401, ../../Desktop/test/assets/scss/base.scss */
+/* line 415, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-heading {
   color: #002147;
   font-weight: bold;
@@ -416,21 +441,21 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 406, ../../Desktop/test/assets/scss/base.scss */
+/* line 420, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-heading span {
   color: #fdc800;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
 }
 
-/* line 412, ../../Desktop/test/assets/scss/base.scss */
+/* line 426, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-para {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   color: #000;
 }
 
-/* line 417, ../../Desktop/test/assets/scss/base.scss */
+/* line 431, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-small {
   color: #002147;
   font-family: "Inter", sans-serif;
@@ -438,50 +463,50 @@
   font-size: 16px;
 }
 
-/* line 423, ../../Desktop/test/assets/scss/base.scss */
+/* line 437, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-imageh {
   background-color: #f0f4f9;
   padding: 10px 10px 10px 10px;
 }
 
-/* line 426, ../../Desktop/test/assets/scss/base.scss */
+/* line 440, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-imageh .feedb-image-con {
   padding-top: 10px;
   padding-left: 20px;
 }
 
-/* line 429, ../../Desktop/test/assets/scss/base.scss */
+/* line 443, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-imageh .feedb-image-con .feedb-image-head {
   color: #002147;
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }
 
-/* line 434, ../../Desktop/test/assets/scss/base.scss */
+/* line 448, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .feedback-wrapper .feedback-con .feedb-imageh .feedb-image-con .feedb-image-p {
   color: #757575;
   font-size: 12px;
   font-family: "Inter", "sans-serif";
 }
 
-/* line 446, ../../Desktop/test/assets/scss/base.scss */
+/* line 460, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper {
   background-color: #f0f4f9;
 }
 
-/* line 448, ../../Desktop/test/assets/scss/base.scss */
+/* line 462, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-heading {
   margin-top: 10px;
 }
 
-/* line 450, ../../Desktop/test/assets/scss/base.scss */
+/* line 464, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-heading .price-small-heading {
   color: #fdc800;
   font-size: 16px;
   font-family: "Inter", sans-serif;
 }
 
-/* line 455, ../../Desktop/test/assets/scss/base.scss */
+/* line 469, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-heading .price-large-heading {
   padding-top: -10;
   color: #002147;
@@ -489,7 +514,7 @@
   font-family: "Inter", sans-serif;
 }
 
-/* line 462, ../../Desktop/test/assets/scss/base.scss */
+/* line 476, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button {
   background-color: #ffffff;
   padding: 5px 5px 5px 5px;
@@ -497,7 +522,7 @@
   border-radius: 2px;
 }
 
-/* line 468, ../../Desktop/test/assets/scss/base.scss */
+/* line 482, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-monthly {
   background-color: #00b2b2;
   color: #ffffff;
@@ -507,13 +532,13 @@
   padding-left: 20px;
 }
 
-/* line 476, ../../Desktop/test/assets/scss/base.scss */
+/* line 490, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-monthly:hover {
   background-color: #ffffff;
   color: #000;
 }
 
-/* line 481, ../../Desktop/test/assets/scss/base.scss */
+/* line 495, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-yearly {
   padding-right: 20px;
   padding-left: 20px;
@@ -522,13 +547,13 @@
   font-family: "Inter", sans-serif;
 }
 
-/* line 487, ../../Desktop/test/assets/scss/base.scss */
+/* line 501, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-yearly:hover {
   background-color: #002147;
   color: #ffffff;
 }
 
-/* line 495, ../../Desktop/test/assets/scss/base.scss */
+/* line 509, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section {
   background-color: #ffffff;
   margin-bottom: 10px;
@@ -537,7 +562,7 @@
   padding-left: 10px;
 }
 
-/* line 502, ../../Desktop/test/assets/scss/base.scss */
+/* line 516, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-main-head {
   background-color: #002147;
   width: 144px;
@@ -548,19 +573,19 @@
   font-size: 16px;
 }
 
-/* line 512, ../../Desktop/test/assets/scss/base.scss */
+/* line 526, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section hr {
   border: 1px solid #757575;
 }
 
-/* line 515, ../../Desktop/test/assets/scss/base.scss */
+/* line 529, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-starter {
   color: #002147;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
 }
 
-/* line 520, ../../Desktop/test/assets/scss/base.scss */
+/* line 534, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-one {
   font-weight: 900;
   font-size: 30px;
@@ -568,19 +593,19 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 526, ../../Desktop/test/assets/scss/base.scss */
+/* line 540, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section li {
   font-size: 16px;
   color: #002147;
   font-family: "Inter", sans-serif;
 }
 
-/* line 530, ../../Desktop/test/assets/scss/base.scss */
+/* line 544, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section li i {
   padding-right: 12px;
 }
 
-/* line 535, ../../Desktop/test/assets/scss/base.scss */
+/* line 549, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .btn-primary {
   background-color: #002147;
   border: 1px solid #002147;
@@ -589,26 +614,26 @@
   font-weight: 300;
 }
 
-/* line 542, ../../Desktop/test/assets/scss/base.scss */
+/* line 556, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .btn1 {
   background-color: #fdc800;
   border: 1px solid #fdc800;
   color: #000;
 }
 
-/* line 547, ../../Desktop/test/assets/scss/base.scss */
+/* line 561, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-sub-heading {
   color: #bdbdbd;
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 555, ../../Desktop/test/assets/scss/base.scss */
+/* line 569, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form {
   position: relative;
 }
 
-/* line 557, ../../Desktop/test/assets/scss/base.scss */
+/* line 571, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form .fa-solid {
   position: absolute;
   transform: translate(12px, 13px);
@@ -616,56 +641,149 @@
   left: 0px;
 }
 
-/* line 566, ../../Desktop/test/assets/scss/base.scss */
+/* line 577, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form .umair-btn {
   position: absolute;
   right: 0px;
   top: 0px;
 }
 
-/* line 571, ../../Desktop/test/assets/scss/base.scss */
+/* line 582, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form input {
   padding: 10px;
 }
 
-/* line 581, ../../Desktop/test/assets/scss/base.scss */
+/* line 589, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper::before {
+  position: relative;
+  content: "";
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  top: 40%;
+  z-index: -1;
+}
+
+/* line 602, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .course-content .course-head-small {
+  color: #fdc800;
+  font-size: 16px;
+}
+
+/* line 606, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .course-content .couse-head-large {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #002147;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+/* line 615, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .label {
+  color: #002147;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 621, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .btn-group .course-button {
+  margin-left: 3px;
+  background-color: #ffffff;
+  border-top: 2px solid #757575;
+  border-left: 2px solid #757575;
+  border-bottom: 2px solid #757575;
+}
+
+/* line 628, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .btn-group .btn {
+  border-radius: 1px;
+}
+
+/* line 631, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .btn-group .course-drop-arrow {
+  border-top: 2px solid #757575;
+  border-right: 2px solid #757575;
+  border-bottom: 2px solid #757575;
+}
+
+/* line 642, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .image-card {
+  background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  padding: 20px;
+  border-bottom: 0px;
+}
+
+/* line 649, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .image-card .image-sort {
+  position: relative;
+  bottom: -40px;
+  border: 10px solid #ffffff;
+}
+
+/* line 655, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area {
+  padding-left: 28px;
+}
+
+/* line 657, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area .card-heading1 {
+  padding-top: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #002147;
+}
+
+/* line 664, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area .card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #757575;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* line 682, ../../Desktop/test/assets/scss/base.scss */
 .footer {
   background-color: #002147;
 }
 
-/* line 584, ../../Desktop/test/assets/scss/base.scss */
+/* line 685, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top {
   color: #ffffff;
 }
 
-/* line 587, ../../Desktop/test/assets/scss/base.scss */
+/* line 688, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .ft-info-heading {
   font-size: 20px;
 }
 
-/* line 590, ../../Desktop/test/assets/scss/base.scss */
+/* line 691, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top {
   margin-left: 1px;
 }
 
-/* line 592, ../../Desktop/test/assets/scss/base.scss */
+/* line 693, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top li {
   padding-top: 10px;
 }
 
-/* line 595, ../../Desktop/test/assets/scss/base.scss */
+/* line 696, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top .ft-info-link {
   color: #ffffff;
   font-weight: 300;
   margin-top: 10px;
 }
 
-/* line 602, ../../Desktop/test/assets/scss/base.scss */
+/* line 703, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li {
   padding-top: 10px;
 }
 
-/* line 604, ../../Desktop/test/assets/scss/base.scss */
+/* line 705, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a {
   font-size: 14px;
   color: #ffffff;
@@ -673,74 +791,78 @@
   font-weight: 300;
 }
 
-/* line 609, ../../Desktop/test/assets/scss/base.scss */
+/* line 710, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a i {
   color: #ffffff;
   padding-right: 6px;
   margin-left: 6px;
 }
 
-/* line 629, ../../Desktop/test/assets/scss/base.scss */
+/* line 730, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container {
   background-color: #fdc800;
   height: 92px;
 }
 
-/* line 632, ../../Desktop/test/assets/scss/base.scss */
+/* line 733, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .copyright {
   margin-top: 40px;
   margin-left: 10px;
 }
 
-/* line 636, ../../Desktop/test/assets/scss/base.scss */
+/* line 737, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .footer-right {
   padding-top: 40px;
   padding-right: 50px;
 }
 
-/* line 643, ../../Desktop/test/assets/scss/base.scss */
+/* line 744, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 647, ../../Desktop/test/assets/scss/base.scss */
+/* line 748, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
 
 @media (max-width: 567px) {
-  /* line 657, ../../Desktop/test/assets/scss/base.scss */
+  /* line 758, ../../Desktop/test/assets/scss/base.scss */
   .navbar {
     padding: 28px 0;
   }
 }
 
-@media screen and (max-width: 667px) {
-  /* line 667, ../../Desktop/test/assets/scss/base.scss */
+@media (max-width: 667px) {
+  /* line 766, ../../Desktop/test/assets/scss/base.scss */
   .image {
     width: 300px;
     margin: 0;
     padding-bottom: 100px;
   }
-  /* line 672, ../../Desktop/test/assets/scss/base.scss */
+  /* line 771, ../../Desktop/test/assets/scss/base.scss */
   .copyright {
     font-size: 9px;
   }
-  /* line 675, ../../Desktop/test/assets/scss/base.scss */
+  /* line 774, ../../Desktop/test/assets/scss/base.scss */
   .footer-top {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+  /* line 779, ../../Desktop/test/assets/scss/base.scss */
+  .feedback-content {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 685, ../../Desktop/test/assets/scss/base.scss */
+  /* line 787, ../../Desktop/test/assets/scss/base.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 687, ../../Desktop/test/assets/scss/base.scss */
+  /* line 789, ../../Desktop/test/assets/scss/base.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
   }
