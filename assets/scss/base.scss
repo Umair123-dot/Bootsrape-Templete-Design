@@ -327,7 +327,7 @@ $cardfont: #757575;
             font-size: 48px;
             color: $navlogo;
         }
-        @media (max-width: 678px) {
+        @media (max-width: 768px) {
             .sus-content {
                 margin-top: 4px;
                 padding-bottom: 20px;
@@ -586,97 +586,213 @@ $cardfont: #757575;
     }
 
     .course-wrapper {
-        &::before{
-            position: relative;
-            content: "";
-            background-color: red;
-            width: 100%;
-            height: 100%;
-            top:40%;
-            z-index: -1;
-        }
-        .course-relate{
-            
-        .course-content{
-            
-            .course-head-small {
-                color: $bgnavtop;
-                font-size: 16px;
+        // &::before {
+        //     position: relative;
+        //     content: "";
+        //     background-color: red;
+        //     width: 100%;
+        //     height: 100%;
+        //     top: 40%;
+
+        // }
+        background: linear-gradient(to bottom, $bgnavbar 0%, $bgnavbar 30%, $whitebtn 0%, $whitebtn 70%);
+
+        .course-relate {
+            .course-content {
+                .course-head-small {
+                    color: $bgnavtop;
+                    font-size: 16px;
+                }
+                .couse-head-large {
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 48px;
+                    color: $navlogo;
+                    font-weight: bold;
+                    margin-top: -10px;
+                }
             }
-            .couse-head-large {
-                font-family: Georgia, "Times New Roman", Times, serif;
-                font-size: 48px;
-                color: $navlogo;
+
+            .label {
+                color: #002147;
+                font-size: 20px;
                 font-weight: bold;
-                margin-top: -10px;
+            }
+            .btn-group {
+                .course-button {
+                    margin-left: 3px;
+                    background-color: $whitebtn;
+                    border-top: 2px solid $cardfont;
+                    border-left: 2px solid $cardfont;
+                    border-bottom: 2px solid $cardfont;
+                }
+                .btn {
+                    border-radius: 1px;
+                }
+                .course-drop-arrow {
+                    border-top: 2px solid $cardfont;
+                    border-right: 2px solid $cardfont;
+                    border-bottom: 2px solid $cardfont;
+                    background-color: $whitebtn;
+                }
             }
         }
 
-        .label {
-            color: #002147;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        .btn-group {
-            .course-button {
-                margin-left: 3px;
-                background-color: $whitebtn;
-                border-top: 2px solid $cardfont;
-                border-left: 2px solid $cardfont;
-                border-bottom: 2px solid $cardfont;
-            }
-            .btn {
-                border-radius: 1px;
-            }
-            .course-drop-arrow {
-                border-top: 2px solid $cardfont;
-                border-right: 2px solid $cardfont;
-                border-bottom: 2px solid $cardfont;
+        .select-course-wrapper {
+            .card {
+                .image-card {
+                    background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    min-height: 200px;
+                    padding: 20px;
+                    border-bottom: 0px;
+                    .image-sort {
+                        position: relative;
+                        bottom: -40px;
+                        border: 10px solid $whitebtn;
+                    }
+                }
+                .card-content-area {
+                    padding-left: 28px;
+                    .card-heading1 {
+                        padding-top: 24px;
+                        font-weight: bold;
+                        font-family: "Times New Roman", Times, serif;
+                        font-size: 15px;
+                        color: $navlogo;
+                    }
+                    .card-text {
+                        font-family: Georgia, "Times New Roman", Times, serif;
+                        color: $cardfont;
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+                // .image-large {
+                //     .image-large {
+                //         height: 100%;
+                //     }
+
+                // }
             }
         }
     }
 
-    .select-course-wrapper {
-
-        .card {
-            .image-card{
-                background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
-                background-repeat: no-repeat;
-                 background-size: cover;
-                min-height: 200px;
-                padding: 20px;
-                border-bottom: 0px;
-                .image-sort {
-                    position: relative;
-                    bottom: -40px;
-                    border: 10px solid $whitebtn;
+    .course-details-wrapper {
+        background: linear-gradient(to bottom, $bgnavbar 0%, $bgnavbar 30%, $whitebtn 0%, $whitebtn 70%);
+        .course-details-relate {
+            .course-content {
+                .course-head-small {
+                    color: $bgnavtop;
+                    font-size: 16px;
                 }
-            }
-            .card-content-area{
-                padding-left: 28px;
-                .card-heading1{
-                    padding-top: 24px;
-                    font-weight: bold;
-                    font-family: "Times New Roman", Times, serif;
-                    font-size: 15px;
-                    color: $navlogo;
-                }
-                .card-text{
-                    
+                .couse-head-large {
                     font-family: Georgia, "Times New Roman", Times, serif;
-                    color: $cardfont;
-                    font-size: 14px;
-                    margin-top: 10px;
-
+                    font-size: 48px;
+                    color: $navlogo;
+                    font-weight: bold;
+                    margin-top: -10px;
                 }
             }
-            // .image-large {
-            //     .image-large {
-            //         height: 100%;
-            //     }
-                
+            .course-detail-heading {
+                .course-details-head {
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    font-size: 48px;
+                    color: $navlogo;
+                    font-weight: bold;
+                }
+                .coursedetails-paragrape {
+                    font-size: 16px;
+                    color: $black;
+                    padding-bottom: 31px;
+                }
+                .coursedetails-paragrape {
+                    font-size: 16px;
+                    color: $black;
+                }
+
+                .de-course-list {
+                    .de-course-para {
+                        font-size: 16px;
+                        color: $black;
+                        .de-course-span {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+
+            .coursedetail-main {
+                .d-card-text {
+                    .d-custumer {
+                        font-size: 14px;
+                        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+                            Geneva, Verdana, sans-serif;
+                        color: $cardfont;
+                    }
+                    .d-mail {
+                        font-size: 14px;
+                        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
+                            Geneva, Verdana, sans-serif;
+                        color: #00b2b2;
+                        font-weight: bold;
+                        margin-top: -16px;
+                    }
+                }
+
+                .img-setting {
+                    padding-top: 22px;
+                    padding-bottom: 22px;
+                }
+                .coursedetail-card-ul {
+                    .coursedetail-card-li {
+                        font-size: 17px;
+                        color: $black;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        padding: 16px;
+
+                        span {
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .course-detail-feedback {
+        margin-top: 40px;
+        margin-left: 50px;
+        .course-detail-image {
+           
+            // background-repeat: no-repeat;
+            // background-size: cover;
+            // min-height: 500px;
+            // padding: 0px;
+            // border-bottom: 0px;
+            // position: relative;
+            // .detail-image {
+            //     background-color: #fdc800;
+            //     position: absolute;
+            //     top: -40px;
+            //     left: -20px;
+            //     padding: 5px;
             // }
-        }}
+
+            // .detail-content {
+            //     position: absolute;
+            //     background-color: blue;
+            //     bottom: 55px;
+            //     left: 100px;
+               
+            //     .detail-short-head {
+            //         padding-top: 200px  ;
+            //     }
+            //     .detail-short-para {
+            //     }
+            // }
+        }
     }
 }
 .footer {
@@ -687,6 +803,9 @@ $cardfont: #757575;
 
         .ft-info-heading {
             font-size: 20px;
+        }
+
+        .footer-p {
         }
         .info-footer-top {
             margin-left: 1px;
@@ -779,15 +898,22 @@ $cardfont: #757575;
     .feedback-content {
         width: 300px;
     }
+    .course-content {
+    }
+    .footer-p {
+        padding-left: 5rem;
+    }
 }
 @media screen and (max-width: 992px) {
 }
 
-@media screen and(min-width:768px) and (max-width: 1199px) {
+@media screen and(min-width:767px) and (max-width: 992px) {
     .sus-content {
         margin-bottom: 150px;
         .btn-umair {
             margin-left: -100px;
         }
+    }
+    .price-m {
     }
 }

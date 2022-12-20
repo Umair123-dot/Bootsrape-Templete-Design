@@ -337,7 +337,7 @@
   color: #002147;
 }
 
-@media (max-width: 678px) {
+@media (max-width: 768px) {
   /* line 331, ../../Desktop/test/assets/scss/base.scss */
   .content-wrapper .suscribe-wrapper .sus-content {
     margin-top: 4px;
@@ -653,15 +653,9 @@
   padding: 10px;
 }
 
-/* line 589, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper::before {
-  position: relative;
-  content: "";
-  background-color: red;
-  width: 100%;
-  height: 100%;
-  top: 40%;
-  z-index: -1;
+/* line 588, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper {
+  background: linear-gradient(to bottom, #f0f4f9 0%, #f0f4f9 30%, #ffffff 0%, #ffffff 70%);
 }
 
 /* line 602, ../../Desktop/test/assets/scss/base.scss */
@@ -705,6 +699,7 @@
   border-top: 2px solid #757575;
   border-right: 2px solid #757575;
   border-bottom: 2px solid #757575;
+  background-color: #ffffff;
 }
 
 /* line 642, ../../Desktop/test/assets/scss/base.scss */
@@ -746,44 +741,138 @@
   margin-top: 10px;
 }
 
-/* line 682, ../../Desktop/test/assets/scss/base.scss */
+/* line 681, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper {
+  background: linear-gradient(to bottom, #f0f4f9 0%, #f0f4f9 30%, #ffffff 0%, #ffffff 70%);
+}
+
+/* line 685, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-content .course-head-small {
+  color: #fdc800;
+  font-size: 16px;
+}
+
+/* line 689, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-content .couse-head-large {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #002147;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+/* line 698, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .course-details-head {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #002147;
+  font-weight: bold;
+}
+
+/* line 704, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .coursedetails-paragrape {
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 31px;
+}
+
+/* line 709, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .coursedetails-paragrape {
+  font-size: 16px;
+  color: #000;
+}
+
+/* line 715, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .de-course-list .de-course-para {
+  font-size: 16px;
+  color: #000;
+}
+
+/* line 718, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .de-course-list .de-course-para .de-course-span {
+  font-weight: bold;
+}
+
+/* line 727, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .d-card-text .d-custumer {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #757575;
+}
+
+/* line 733, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .d-card-text .d-mail {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #00b2b2;
+  font-weight: bold;
+  margin-top: -16px;
+}
+
+/* line 743, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .img-setting {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/* line 748, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .coursedetail-card-ul .coursedetail-card-li {
+  font-size: 17px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 16px;
+}
+
+/* line 755, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .coursedetail-card-ul .coursedetail-card-li span {
+  font-weight: 400;
+}
+
+/* line 764, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-detail-feedback {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+/* line 798, ../../Desktop/test/assets/scss/base.scss */
 .footer {
   background-color: #002147;
 }
 
-/* line 685, ../../Desktop/test/assets/scss/base.scss */
+/* line 801, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top {
   color: #ffffff;
 }
 
-/* line 688, ../../Desktop/test/assets/scss/base.scss */
+/* line 804, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .ft-info-heading {
   font-size: 20px;
 }
 
-/* line 691, ../../Desktop/test/assets/scss/base.scss */
+/* line 810, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top {
   margin-left: 1px;
 }
 
-/* line 693, ../../Desktop/test/assets/scss/base.scss */
+/* line 812, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top li {
   padding-top: 10px;
 }
 
-/* line 696, ../../Desktop/test/assets/scss/base.scss */
+/* line 815, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top .ft-info-link {
   color: #ffffff;
   font-weight: 300;
   margin-top: 10px;
 }
 
-/* line 703, ../../Desktop/test/assets/scss/base.scss */
+/* line 822, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li {
   padding-top: 10px;
 }
 
-/* line 705, ../../Desktop/test/assets/scss/base.scss */
+/* line 824, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a {
   font-size: 14px;
   color: #ffffff;
@@ -791,78 +880,82 @@
   font-weight: 300;
 }
 
-/* line 710, ../../Desktop/test/assets/scss/base.scss */
+/* line 829, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a i {
   color: #ffffff;
   padding-right: 6px;
   margin-left: 6px;
 }
 
-/* line 730, ../../Desktop/test/assets/scss/base.scss */
+/* line 849, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container {
   background-color: #fdc800;
   height: 92px;
 }
 
-/* line 733, ../../Desktop/test/assets/scss/base.scss */
+/* line 852, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .copyright {
   margin-top: 40px;
   margin-left: 10px;
 }
 
-/* line 737, ../../Desktop/test/assets/scss/base.scss */
+/* line 856, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .footer-right {
   padding-top: 40px;
   padding-right: 50px;
 }
 
-/* line 744, ../../Desktop/test/assets/scss/base.scss */
+/* line 863, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 748, ../../Desktop/test/assets/scss/base.scss */
+/* line 867, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
 
 @media (max-width: 567px) {
-  /* line 758, ../../Desktop/test/assets/scss/base.scss */
+  /* line 877, ../../Desktop/test/assets/scss/base.scss */
   .navbar {
     padding: 28px 0;
   }
 }
 
 @media (max-width: 667px) {
-  /* line 766, ../../Desktop/test/assets/scss/base.scss */
+  /* line 885, ../../Desktop/test/assets/scss/base.scss */
   .image {
     width: 300px;
     margin: 0;
     padding-bottom: 100px;
   }
-  /* line 771, ../../Desktop/test/assets/scss/base.scss */
+  /* line 890, ../../Desktop/test/assets/scss/base.scss */
   .copyright {
     font-size: 9px;
   }
-  /* line 774, ../../Desktop/test/assets/scss/base.scss */
+  /* line 893, ../../Desktop/test/assets/scss/base.scss */
   .footer-top {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* line 779, ../../Desktop/test/assets/scss/base.scss */
+  /* line 898, ../../Desktop/test/assets/scss/base.scss */
   .feedback-content {
     width: 300px;
   }
+  /* line 903, ../../Desktop/test/assets/scss/base.scss */
+  .footer-p {
+    padding-left: 5rem;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 787, ../../Desktop/test/assets/scss/base.scss */
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  /* line 911, ../../Desktop/test/assets/scss/base.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 789, ../../Desktop/test/assets/scss/base.scss */
+  /* line 913, ../../Desktop/test/assets/scss/base.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
   }
