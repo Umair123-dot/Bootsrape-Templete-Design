@@ -133,10 +133,7 @@ $cardfont: #757575;
     .it-wreapper {
         padding-bottom: 87px;
         background-color: $bgnavbar;
-        @media (max-width: 667px) {
-            .text {
-            }
-        }
+
         .image {
             margin: 30px 40px 60px 10px;
         }
@@ -157,13 +154,11 @@ $cardfont: #757575;
                     background-color: $btnYellow; /* Green */
                     border: none;
                     color: $black;
-                    
+
                     padding-top: 10px;
                     font-size: 13px;
                     margin-right: 10px;
                     border-radius: 4px;
-
-                    
 
                     cursor: pointer;
                 }
@@ -183,52 +178,52 @@ $cardfont: #757575;
             }
         }
     }
+
     .timing-wrapper {
         .timing-inner-wrapper {
             position: relative;
             margin-top: -87px;
-        }
-        .container {
-            background-color: $navlogo;
-            color: $whitebtn;
-            .image-text {
-                .image {
-                    padding-left: 30px;
-                }
-                .text-up {
-                    font-family: Georgia, "Times New Roman", Times, serif;
-                    font-weight: bold;
-                    margin-left: 15px;
-                    .change-text-c {
-                        color: $btnYellow;
+
+            .container {
+                background-color: $navlogo;
+                color: $whitebtn;
+                .image-text {
+                    padding: 20px;
+                    .image {
                     }
-                }
-            }
-            .lanch-time {
-                @media (min-width: 667px) and (max-width: 992px) {
-                }
-                .time {
-                    flex-basis: 100px;
-                    // margin-left: 30px;
-
-                    .t-hours {
-                        margin-top: 50px;
-                        font-size: 50px;
-                        margin-bottom: -12px;
-                        font-family: "Glory", sans-serif;
-                        // font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                        //font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                        font-weight: 1000;
-                        .time-dot {
-                            padding-left: 25px;
-                            font-size: 30px;
-
-                            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",
-                                Geneva, Verdana, sans-serif;
+                    .text-up {
+                        font-family: Georgia, "Times New Roman", Times, serif;
+                        font-weight: bold;
+                        font-size: 30px;
+                        padding-left: 20px;
+                        .change-text-c {
+                            color: $btnYellow;
                         }
                     }
-                    .t-minutes {
-                        margin-left: 5px;
+                }
+                .lanch-time {
+                    padding-top: 45px;
+                    padding-left: 30px;
+                    .time {
+                        flex-basis: 130px;
+                        // margin-left: 30px;
+
+                        .t-hours {
+                            font-size: 50px;
+                            margin-bottom: -12px;
+                            display: flex;
+                            justify-items: center;
+                            align-items: center;
+                            font-family: "Glory", sans-serif;
+                            font-weight: bold;
+                            .time-dot {
+                                padding-left: 10px;
+                                font-size: 30px;
+                            }
+                        }
+                        .t-minutes {
+                            margin-left: 0px;
+                        }
                     }
                 }
             }
@@ -236,7 +231,6 @@ $cardfont: #757575;
     }
 
     .top-feature-wrappers {
-
         margin-bottom: 50px;
 
         .top-heading {
@@ -246,44 +240,162 @@ $cardfont: #757575;
         }
 
         .card {
-                .image-card {
-                    background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    min-height: 200px;
-                    padding: 20px;
-                    border-bottom: 0px;
-                    .image-sort {
-                        position: relative;
-                        bottom: -40px;
-                        border: 10px solid $whitebtn;
-                    }
+            .image-card {
+                background: url("assets/images/image7.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                min-height: 200px;
+                padding: 20px;
+                border-bottom: 0px;
+                .image-sort {
+                    position: relative;
+                    bottom: -40px;
+                    border: 10px solid $whitebtn;
                 }
-                .card-content-area {
-                    padding-left: 28px;
-                    .card-heading1 {
-                        padding-top: 24px;
-                        font-weight: bold;
-                        font-family: "Times New Roman", Times, serif;
-                        font-size: 15px;
-                        color: $navlogo;
-                    }
-                    .card-text {
-                        font-family: Georgia, "Times New Roman", Times, serif;
-                        color: $cardfont;
-                        font-size: 14px;
-                        margin-top: 10px;
-                    }
-                }
-                // .image-large {
-                //     .image-large {
-                //         height: 100%;
-                //     }
-
-                // }
             }
+            .card-content-area {
+                padding-left: 28px;
+                .card-heading1 {
+                    padding-top: 24px;
+                    font-weight: bold;
+                    font-family: "Times New Roman", Times, serif;
+                    font-size: 15px;
+                    color: $navlogo;
+                }
+                .card-text {
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    color: $cardfont;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            }
+          
+        }
     }
-    // subscribe-------------------------------------------------------------------------------------
+    
+    .feedback-wrapper {
+        .course-detail-content {
+            .coursed-feedb-heading {
+                color: $navlogo;
+                font-weight: bold;
+                font-size: 48px;
+                font-family: Georgia, "Times New Roman", Times, serif;
+            }
+            .course-bg {
+                color: $btnYellow;
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-weight: bold;
+                font-size: 48px;
+                margin-top: -30px;
+            }
+            .coursed-para {
+                font-size: 16px;
+                color: $black;
+            }
+            .detail-feedb-small {
+                color: $navlogo;
+                font-size: 16px;
+            }
+            .coursed-feedb-image {
+                margin-bottom: 10px;
+                .coursed-image-sec {
+                    z-index: 2;
+                }
+                .feedb-image-con {
+                    // padding: 18px 50px 10px 30px;
+                    margin-left: -15px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    padding-left: 40px;
+                    padding-right: 30px;
+                    padding-top: 25px;
+                    background-color: $bgnavbar;
+
+                    .coused-feedb-image-head {
+                        color: $navlogo;
+
+                        font-size: 16px;
+                    }
+
+                    .course-feedb-image-p {
+                        color: $cardfont;
+                        padding-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .course-detail-image {
+            position: relative;
+            .detail-image {
+                background-color: #fdc800;
+                position: absolute;
+                top: -40px;
+                left: -20px;
+                padding: 5px;
+            }
+
+            .detail-content {
+                position: relative;
+                background-color: $whitebtn;
+                bottom: 35px;
+                left: 55px;
+                width: 67%;
+                border-radius: 3px;
+
+                .detail-short-head {
+                    padding-top: 15px;
+                    color: #212529;
+                    font-size: 20px;
+
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                }
+                .detail-short-para {
+                    color: #757575;
+                    font-size: 14px;
+                    margin-top: -15px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+    .result-rapper {
+        background-color: #f0f4f9;
+        .container {
+            background: url("/assets/images/map.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .result-seciton {
+                // .result-image {
+                //     margin-top: 30px;
+                //     margin-bottom: 30px;
+                // }
+                .result-para {
+                    .result-number {
+                        margin-right: -40px;
+                        margin-top: -50px;
+                        color: $navlogo;
+                        font-family: "Noto Sans Georgian", sans-serif;
+                        font-size: 60px;
+                        font-weight: bold;
+                    }
+                    .result-alph {
+                        margin-top: -30px;
+                        font-size: 16px;
+                        margin-bottom: 40px;
+                        color: #00b2b2;
+                        font-weight: bold;
+
+                        font-family: "Noto Sans Georgian", sans-serif;
+                        margin-left: 40px;
+                    }
+                }
+            }
+            .result-heading {
+            }
+        }
+    }
     .suscribe-wrapper {
         .subscribe-image {
             margin-left: 90px;
@@ -353,139 +465,6 @@ $cardfont: #757575;
             }
         }
     }
-
-    .result-rapper {
-        background-color: #f0f4f9;
-        .container {
-            background: url("/assets/images/map.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            .result-seciton {
-                // .result-image {
-                //     margin-top: 30px;
-                //     margin-bottom: 30px;
-                // }
-                .result-para {
-                    .result-number {
-                        margin-right: -40px;
-                        margin-top: -50px;
-                        color: $navlogo;
-                        font-family: "Noto Sans Georgian", sans-serif;
-                        font-size: 60px;
-                        font-weight: bold;
-                    }
-                    .result-alph {
-                        margin-top: -30px;
-                        font-size: 16px;
-                        margin-bottom: 40px;
-                        color: #00b2b2;
-                        font-weight: bold;
-
-                        font-family: "Noto Sans Georgian", sans-serif;
-                        margin-left: 40px;
-                    }
-                }
-            }
-            .result-heading {
-            }
-        }
-    }
-
-    .feedback-wrapper {
-        .course-detail-content {
-            .coursed-feedb-heading {
-                color: $navlogo;
-                font-weight: bold;
-                font-size: 48px;
-                font-family: Georgia, "Times New Roman", Times, serif;
-            }
-            .course-bg {
-                color: $btnYellow;
-                font-family: Georgia, "Times New Roman", Times, serif;
-                font-weight: bold;
-                font-size: 48px;
-                margin-top: -30px;
-            }
-            .coursed-para {
-                font-size: 16px;
-                color: $black;
-            }
-            .detail-feedb-small {
-                color: $navlogo;
-                font-size: 16px;
-            }
-            .coursed-feedb-image {
-                margin-bottom: 10px;
-                .coursed-image-sec {
-                    z-index: 2;
-                    
-                   
-                }
-                .feedb-image-con {
-                    // padding: 18px 50px 10px 30px;
-                    margin-left: -15px;
-                    z-index: 1;
-                    border-radius: 5px;
-                    padding-left: 40px;
-                   padding-right: 30px;
-                    padding-top: 25px;
-                    background-color:$bgnavbar;
-                    
-                    .coused-feedb-image-head {
-                        color: $navlogo;
-                     
-                        font-size: 16px;
-                    }
-
-                    .course-feedb-image-p {
-                        color: $cardfont;
-                        padding-left: 10px;
-                        font-size: 12px;
-                    }
-                }
-            }
-        }
-        .course-detail-image {
-           
-            position: relative;
-            .detail-image {
-                background-color: #fdc800;
-                position: absolute;
-                top: -40px;
-                left: -20px;
-                padding: 5px;
-            }
-
-            .detail-content {
-                position: relative;
-                background-color:$whitebtn;
-                bottom: 35px;
-                left: 55px;
-                width: 67%;
-                border-radius: 3px;
-
-                .detail-short-head {
-                    padding-top: 15px;
-                    color: #212529;
-                    font-size: 20px;
-                    
-                    font-family: Georgia, "Times New Roman", Times, serif;
-                    
-                
-                }
-                .detail-short-para {
-                    color: #757575;
-                    font-size: 14px;
-                    margin-top: -15px;
-                    padding-bottom: 10px;
-                }
-            }
-        }
-    }
-
-    // pricc-section
-
     .price-wrapper {
         background-color: $bgnavbar;
         .price-heading {
@@ -610,6 +589,94 @@ $cardfont: #757575;
             }
             input {
                 padding: 10px;
+            }
+        }
+    }
+    .course-detail-feedback {
+        background-color: $bgnavbar;
+        // feedbaccontent-area
+        .course-detail-content {
+            .coursed-feedb-heading {
+                color: $navlogo;
+                font-weight: bold;
+                font-size: 48px;
+                font-family: Georgia, "Times New Roman", Times, serif;
+            }
+            .course-bg {
+                color: $btnYellow;
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-weight: bold;
+                font-size: 48px;
+                margin-top: -30px;
+            }
+            .coursed-para {
+                font-size: 16px;
+                color: $black;
+            }
+            .detail-feedb-small {
+                color: $navlogo;
+                font-size: 16px;
+            }
+            .coursed-feedb-image {
+                margin-bottom: 10px;
+                .coursed-image-sec {
+                    z-index: 2;
+                }
+                .feedb-image-con {
+                    // padding: 18px 50px 10px 30px;
+                    margin-left: -15px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    padding-left: 40px;
+                    padding-right: 30px;
+                    padding-top: 25px;
+                    background-color: #ffffff;
+
+                    .coused-feedb-image-head {
+                        color: $navlogo;
+
+                        font-size: 16px;
+                    }
+
+                    .course-feedb-image-p {
+                        color: $cardfont;
+                        padding-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .course-detail-image {
+            position: relative;
+            .detail-image {
+                background-color: #fdc800;
+                position: absolute;
+                top: -40px;
+                left: -20px;
+                padding: 5px;
+            }
+
+            .detail-content {
+                position: relative;
+                background-color: $whitebtn;
+                bottom: 35px;
+                left: 55px;
+                width: 67%;
+                border-radius: 3px;
+
+                .detail-short-head {
+                    padding-top: 15px;
+                    color: #212529;
+                    font-size: 20px;
+
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                }
+                .detail-short-para {
+                    color: #757575;
+                    font-size: 14px;
+                    margin-top: -15px;
+                    padding-bottom: 10px;
+                }
             }
         }
     }
@@ -789,101 +856,15 @@ $cardfont: #757575;
             }
         }
     }
-
-    .course-detail-feedback {
-         background-color: $bgnavbar;
-        // feedbaccontent-area
-        .course-detail-content {
-            .coursed-feedb-heading {
-                color: $navlogo;
-                font-weight: bold;
-                font-size: 48px;
-                font-family: Georgia, "Times New Roman", Times, serif;
-            }
-            .course-bg {
-                color: $btnYellow;
-                font-family: Georgia, "Times New Roman", Times, serif;
-                font-weight: bold;
-                font-size: 48px;
-                margin-top: -30px;
-            }
-            .coursed-para {
-                font-size: 16px;
-                color: $black;
-            }
-            .detail-feedb-small {
-                color: $navlogo;
-                font-size: 16px;
-            }
-            .coursed-feedb-image {
-                margin-bottom: 10px;
-                .coursed-image-sec {
-                    z-index: 2;
-                    
-                   
-                }
-                .feedb-image-con {
-                    // padding: 18px 50px 10px 30px;
-                    margin-left: -15px;
-                    z-index: 1;
-                    border-radius: 5px;
-                    padding-left: 40px;
-                   padding-right: 30px;
-                    padding-top: 25px;
-                    background-color: #ffffff;
-                    
-                    .coused-feedb-image-head {
-                        color: $navlogo;
-                     
-                        font-size: 16px;
-                    }
-
-                    .course-feedb-image-p {
-                        color: $cardfont;
-                        padding-left: 10px;
-                        font-size: 12px;
-                    }
-                }
-            }
-        }
-        .course-detail-image {
-           
-            position: relative;
-            .detail-image {
-                background-color: #fdc800;
-                position: absolute;
-                top: -40px;
-                left: -20px;
-                padding: 5px;
-            }
-
-            .detail-content {
-                position: relative;
-                background-color:$whitebtn;
-                bottom: 35px;
-                left: 55px;
-                width: 67%;
-                border-radius: 3px;
-
-                .detail-short-head {
-                    padding-top: 15px;
-                    color: #212529;
-                    font-size: 20px;
-                    
-                    font-family: Georgia, "Times New Roman", Times, serif;
-                    
-                
-                }
-                .detail-short-para {
-                    color: #757575;
-                    font-size: 14px;
-                    margin-top: -15px;
-                    padding-bottom: 10px;
-                }
-            }
-        }
-    }
 }
+
+
+
+
+
+
+
+
 .footer {
     // .footer-top{
     background-color: #002147;

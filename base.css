@@ -117,31 +117,31 @@
   background-color: #f0f4f9;
 }
 
-/* line 140, ../../Desktop/test/assets/scss/base.scss */
+/* line 137, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .image {
   margin: 30px 40px 60px 10px;
 }
 
-/* line 143, ../../Desktop/test/assets/scss/base.scss */
+/* line 140, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text {
   margin: 115px 0px 160px 10px;
 }
 
-/* line 145, ../../Desktop/test/assets/scss/base.scss */
+/* line 142, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h4 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: #002147;
 }
 
-/* line 150, ../../Desktop/test/assets/scss/base.scss */
+/* line 147, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 60;
   color: #002147;
 }
 
-/* line 156, ../../Desktop/test/assets/scss/base.scss */
+/* line 153, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn {
   background-color: #fdc800;
   /* Green */
@@ -154,7 +154,7 @@
   cursor: pointer;
 }
 
-/* line 170, ../../Desktop/test/assets/scss/base.scss */
+/* line 165, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .it-wreapper .text .multi-btns .btn-second {
   background-color: #ffffff;
   /* Green */
@@ -167,76 +167,84 @@
   cursor: pointer;
 }
 
-/* line 187, ../../Desktop/test/assets/scss/base.scss */
+/* line 183, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .timing-wrapper .timing-inner-wrapper {
   position: relative;
   margin-top: -87px;
 }
 
-/* line 191, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container {
+/* line 187, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container {
   background-color: #002147;
   color: #ffffff;
 }
 
-/* line 195, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .image-text .image {
-  padding-left: 30px;
+/* line 190, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .image-text {
+  padding: 20px;
 }
 
-/* line 198, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .image-text .text-up {
+/* line 194, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .image-text .text-up {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
-  margin-left: 15px;
+  font-size: 30px;
+  padding-left: 20px;
 }
 
-/* line 202, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .image-text .text-up .change-text-c {
+/* line 199, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .image-text .text-up .change-text-c {
   color: #fdc800;
 }
 
-/* line 210, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .lanch-time .time {
-  flex-basis: 100px;
+/* line 204, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .lanch-time {
+  padding-top: 45px;
+  padding-left: 30px;
 }
 
-/* line 214, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .lanch-time .time .t-hours {
-  margin-top: 50px;
+/* line 207, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .lanch-time .time {
+  flex-basis: 130px;
+}
+
+/* line 211, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .lanch-time .time .t-hours {
   font-size: 50px;
   margin-bottom: -12px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
   font-family: "Glory", sans-serif;
-  font-weight: 1000;
+  font-weight: bold;
 }
 
-/* line 222, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .lanch-time .time .t-hours .time-dot {
-  padding-left: 25px;
+/* line 219, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .lanch-time .time .t-hours .time-dot {
+  padding-left: 10px;
   font-size: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* line 230, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .timing-wrapper .container .lanch-time .time .t-minutes {
-  margin-left: 5px;
+/* line 224, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .timing-wrapper .timing-inner-wrapper .container .lanch-time .time .t-minutes {
+  margin-left: 0px;
 }
 
-/* line 238, ../../Desktop/test/assets/scss/base.scss */
+/* line 233, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers {
   margin-bottom: 50px;
 }
 
-/* line 242, ../../Desktop/test/assets/scss/base.scss */
+/* line 236, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .top-heading {
   color: #002147;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 249, ../../Desktop/test/assets/scss/base.scss */
+/* line 243, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card .image-card {
-  background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+  background: url("assets/images/image7.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 200px;
@@ -244,19 +252,19 @@
   border-bottom: 0px;
 }
 
-/* line 256, ../../Desktop/test/assets/scss/base.scss */
+/* line 250, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card .image-card .image-sort {
   position: relative;
   bottom: -40px;
   border: 10px solid #ffffff;
 }
 
-/* line 262, ../../Desktop/test/assets/scss/base.scss */
+/* line 256, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card .card-content-area {
   padding-left: 28px;
 }
 
-/* line 264, ../../Desktop/test/assets/scss/base.scss */
+/* line 258, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card .card-content-area .card-heading1 {
   padding-top: 24px;
   font-weight: bold;
@@ -265,7 +273,7 @@
   color: #002147;
 }
 
-/* line 271, ../../Desktop/test/assets/scss/base.scss */
+/* line 265, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .top-feature-wrappers .card .card-content-area .card-text {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #757575;
@@ -273,27 +281,164 @@
   margin-top: 10px;
 }
 
-/* line 288, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .suscribe-wrapper .subscribe-image {
-  margin-left: 90px;
+/* line 278, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-heading {
+  color: #002147;
+  font-weight: bold;
+  font-size: 48px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 284, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .course-bg {
+  color: #fdc800;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 48px;
+  margin-top: -30px;
 }
 
 /* line 291, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-para {
+  font-size: 16px;
+  color: #000;
+}
+
+/* line 295, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .detail-feedb-small {
+  color: #002147;
+  font-size: 16px;
+}
+
+/* line 299, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image {
+  margin-bottom: 10px;
+}
+
+/* line 301, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .coursed-image-sec {
+  z-index: 2;
+}
+
+/* line 304, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .feedb-image-con {
+  margin-left: -15px;
+  z-index: 1;
+  border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 25px;
+  background-color: #f0f4f9;
+}
+
+/* line 314, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .feedb-image-con .coused-feedb-image-head {
+  color: #002147;
+  font-size: 16px;
+}
+
+/* line 320, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .feedb-image-con .course-feedb-image-p {
+  color: #757575;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+/* line 328, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-image {
+  position: relative;
+}
+
+/* line 330, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-image .detail-image {
+  background-color: #fdc800;
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  padding: 5px;
+}
+
+/* line 338, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-image .detail-content {
+  position: relative;
+  background-color: #ffffff;
+  bottom: 35px;
+  left: 55px;
+  width: 67%;
+  border-radius: 3px;
+}
+
+/* line 346, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-image .detail-content .detail-short-head {
+  padding-top: 15px;
+  color: #212529;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 353, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .feedback-wrapper .course-detail-image .detail-content .detail-short-para {
+  color: #757575;
+  font-size: 14px;
+  margin-top: -15px;
+  padding-bottom: 10px;
+}
+
+/* line 362, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper {
+  background-color: #f0f4f9;
+}
+
+/* line 364, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container {
+  background: url("/assets/images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 375, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container .result-seciton .result-para .result-number {
+  margin-right: -40px;
+  margin-top: -50px;
+  color: #002147;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* line 383, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .result-rapper .container .result-seciton .result-para .result-alph {
+  margin-top: -30px;
+  font-size: 16px;
+  margin-bottom: 40px;
+  color: #00b2b2;
+  font-weight: bold;
+  font-family: "Noto Sans Georgian", sans-serif;
+  margin-left: 40px;
+}
+
+/* line 400, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .subscribe-image {
   margin-left: 90px;
 }
 
-/* line 295, ../../Desktop/test/assets/scss/base.scss */
+/* line 403, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .suscribe-wrapper .subscribe-image {
+  margin-left: 90px;
+}
+
+/* line 407, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content {
   margin-top: 180px;
 }
 
-/* line 298, ../../Desktop/test/assets/scss/base.scss */
+/* line 410, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input {
   position: relative;
 }
 
-/* line 300, ../../Desktop/test/assets/scss/base.scss */
+/* line 412, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input .btn-umair {
   position: absolute;
   background-color: #fdc800;
@@ -304,7 +449,7 @@
   color: #002147;
 }
 
-/* line 312, ../../Desktop/test/assets/scss/base.scss */
+/* line 424, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input .icon {
   position: absolute;
   left: 15px;
@@ -317,7 +462,7 @@
   justify-content: center;
 }
 
-/* line 323, ../../Desktop/test/assets/scss/base.scss */
+/* line 435, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .form-input input {
   border: 1px solid #bdbdbd;
   border-radius: 5px;
@@ -329,14 +474,14 @@
   width: 100%;
 }
 
-/* line 334, ../../Desktop/test/assets/scss/base.scss */
+/* line 446, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .sus-content .subs-heading {
   font-size: 16px;
   color: #fdc800;
   font-weight: bold;
 }
 
-/* line 340, ../../Desktop/test/assets/scss/base.scss */
+/* line 452, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .suscribe-wrapper .main-heading {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 48px;
@@ -344,173 +489,36 @@
 }
 
 @media (max-width: 768px) {
-  /* line 346, ../../Desktop/test/assets/scss/base.scss */
+  /* line 458, ../../Desktop/test/assets/scss/base.scss */
   .content-wrapper .suscribe-wrapper .sus-content {
     margin-top: 4px;
     padding-bottom: 20px;
   }
-  /* line 350, ../../Desktop/test/assets/scss/base.scss */
+  /* line 462, ../../Desktop/test/assets/scss/base.scss */
   .content-wrapper .suscribe-wrapper .subscribe-image {
     padding-top: 10px;
     margin-left: 30px;
   }
 }
 
-/* line 357, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .result-rapper {
-  background-color: #f0f4f9;
-}
-
-/* line 359, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .result-rapper .container {
-  background: url("/assets/images/map.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 370, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .result-rapper .container .result-seciton .result-para .result-number {
-  margin-right: -40px;
-  margin-top: -50px;
-  color: #002147;
-  font-family: "Noto Sans Georgian", sans-serif;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-/* line 378, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .result-rapper .container .result-seciton .result-para .result-alph {
-  margin-top: -30px;
-  font-size: 16px;
-  margin-bottom: 40px;
-  color: #00b2b2;
-  font-weight: bold;
-  font-family: "Noto Sans Georgian", sans-serif;
-  margin-left: 40px;
-}
-
-/* line 397, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-heading {
-  color: #002147;
-  font-weight: bold;
-  font-size: 48px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-/* line 403, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .course-bg {
-  color: #fdc800;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 48px;
-  margin-top: -30px;
-}
-
-/* line 410, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-para {
-  font-size: 16px;
-  color: #000;
-}
-
-/* line 414, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .detail-feedb-small {
-  color: #002147;
-  font-size: 16px;
-}
-
-/* line 418, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image {
-  margin-bottom: 10px;
-}
-
-/* line 420, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .coursed-image-sec {
-  z-index: 2;
-}
-
-/* line 425, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .feedb-image-con {
-  margin-left: -15px;
-  z-index: 1;
-  border-radius: 5px;
-  padding-left: 40px;
-  padding-right: 30px;
-  padding-top: 25px;
-  background-color: #f0f4f9;
-}
-
-/* line 435, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .feedb-image-con .coused-feedb-image-head {
-  color: #002147;
-  font-size: 16px;
-}
-
-/* line 441, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-content .coursed-feedb-image .feedb-image-con .course-feedb-image-p {
-  color: #757575;
-  padding-left: 10px;
-  font-size: 12px;
-}
-
-/* line 449, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-image {
-  position: relative;
-}
-
-/* line 452, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-image .detail-image {
-  background-color: #fdc800;
-  position: absolute;
-  top: -40px;
-  left: -20px;
-  padding: 5px;
-}
-
-/* line 460, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-image .detail-content {
-  position: relative;
-  background-color: #ffffff;
-  bottom: 35px;
-  left: 55px;
-  width: 67%;
-  border-radius: 3px;
-}
-
 /* line 468, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-image .detail-content .detail-short-head {
-  padding-top: 15px;
-  color: #212529;
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-/* line 477, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .feedback-wrapper .course-detail-image .detail-content .detail-short-para {
-  color: #757575;
-  font-size: 14px;
-  margin-top: -15px;
-  padding-bottom: 10px;
-}
-
-/* line 489, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper {
   background-color: #f0f4f9;
 }
 
-/* line 491, ../../Desktop/test/assets/scss/base.scss */
+/* line 470, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-heading {
   margin-top: 10px;
 }
 
-/* line 493, ../../Desktop/test/assets/scss/base.scss */
+/* line 472, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-heading .price-small-heading {
   color: #fdc800;
   font-size: 16px;
   font-family: "Inter", sans-serif;
 }
 
-/* line 498, ../../Desktop/test/assets/scss/base.scss */
+/* line 477, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-heading .price-large-heading {
   padding-top: -10;
   color: #002147;
@@ -518,7 +526,7 @@
   font-family: "Inter", sans-serif;
 }
 
-/* line 505, ../../Desktop/test/assets/scss/base.scss */
+/* line 484, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button {
   background-color: #ffffff;
   padding: 5px 5px 5px 5px;
@@ -526,7 +534,7 @@
   border-radius: 2px;
 }
 
-/* line 511, ../../Desktop/test/assets/scss/base.scss */
+/* line 490, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-monthly {
   background-color: #00b2b2;
   color: #ffffff;
@@ -536,13 +544,13 @@
   padding-left: 20px;
 }
 
-/* line 519, ../../Desktop/test/assets/scss/base.scss */
+/* line 498, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-monthly:hover {
   background-color: #ffffff;
   color: #000;
 }
 
-/* line 524, ../../Desktop/test/assets/scss/base.scss */
+/* line 503, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-yearly {
   padding-right: 20px;
   padding-left: 20px;
@@ -551,13 +559,13 @@
   font-family: "Inter", sans-serif;
 }
 
-/* line 530, ../../Desktop/test/assets/scss/base.scss */
+/* line 509, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-button .btn-group .btn-price-yearly:hover {
   background-color: #002147;
   color: #ffffff;
 }
 
-/* line 538, ../../Desktop/test/assets/scss/base.scss */
+/* line 517, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section {
   background-color: #ffffff;
   margin-bottom: 10px;
@@ -566,7 +574,7 @@
   padding-left: 10px;
 }
 
-/* line 545, ../../Desktop/test/assets/scss/base.scss */
+/* line 524, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-main-head {
   background-color: #002147;
   width: 144px;
@@ -577,19 +585,19 @@
   font-size: 16px;
 }
 
-/* line 555, ../../Desktop/test/assets/scss/base.scss */
+/* line 534, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section hr {
   border: 1px solid #757575;
 }
 
-/* line 558, ../../Desktop/test/assets/scss/base.scss */
+/* line 537, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-starter {
   color: #002147;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 60px;
 }
 
-/* line 563, ../../Desktop/test/assets/scss/base.scss */
+/* line 542, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-one {
   font-weight: 900;
   font-size: 30px;
@@ -597,19 +605,19 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 569, ../../Desktop/test/assets/scss/base.scss */
+/* line 548, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section li {
   font-size: 16px;
   color: #002147;
   font-family: "Inter", sans-serif;
 }
 
-/* line 573, ../../Desktop/test/assets/scss/base.scss */
+/* line 552, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section li i {
   padding-right: 12px;
 }
 
-/* line 578, ../../Desktop/test/assets/scss/base.scss */
+/* line 557, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .btn-primary {
   background-color: #002147;
   border: 1px solid #002147;
@@ -618,26 +626,26 @@
   font-weight: 300;
 }
 
-/* line 585, ../../Desktop/test/assets/scss/base.scss */
+/* line 564, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .btn1 {
   background-color: #fdc800;
   border: 1px solid #fdc800;
   color: #000;
 }
 
-/* line 590, ../../Desktop/test/assets/scss/base.scss */
+/* line 569, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .price-wrapper .price-main-section .price-sub-heading {
   color: #bdbdbd;
   font-size: 16px;
   font-family: "Times New Roman", Times, serif;
 }
 
-/* line 598, ../../Desktop/test/assets/scss/base.scss */
+/* line 577, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form {
   position: relative;
 }
 
-/* line 600, ../../Desktop/test/assets/scss/base.scss */
+/* line 579, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form .fa-solid {
   position: absolute;
   transform: translate(12px, 13px);
@@ -645,200 +653,24 @@
   left: 0px;
 }
 
-/* line 606, ../../Desktop/test/assets/scss/base.scss */
+/* line 585, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form .umair-btn {
   position: absolute;
   right: 0px;
   top: 0px;
 }
 
-/* line 611, ../../Desktop/test/assets/scss/base.scss */
+/* line 590, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .practice-rapper .form input {
   padding: 10px;
 }
 
-/* line 617, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper {
-  background: linear-gradient(to bottom, #f0f4f9 0%, #f0f4f9 30%, #ffffff 0%, #ffffff 70%);
-}
-
-/* line 631, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .course-relate .course-content .course-head-small {
-  color: #fdc800;
-  font-size: 16px;
-}
-
-/* line 635, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .course-relate .course-content .couse-head-large {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 48px;
-  color: #002147;
-  font-weight: bold;
-  margin-top: -10px;
-}
-
-/* line 644, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .course-relate .label {
-  color: #002147;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* line 650, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .course-relate .btn-group .course-button {
-  margin-left: 3px;
-  background-color: #ffffff;
-  border-top: 2px solid #757575;
-  border-left: 2px solid #757575;
-  border-bottom: 2px solid #757575;
-}
-
-/* line 657, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .course-relate .btn-group .btn {
-  border-radius: 1px;
-}
-
-/* line 660, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .course-relate .btn-group .course-drop-arrow {
-  border-top: 2px solid #757575;
-  border-right: 2px solid #757575;
-  border-bottom: 2px solid #757575;
-  background-color: #ffffff;
-}
-
-/* line 671, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .select-course-wrapper .card .image-card {
-  background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 200px;
-  padding: 20px;
-  border-bottom: 0px;
-}
-
-/* line 678, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .select-course-wrapper .card .image-card .image-sort {
-  position: relative;
-  bottom: -40px;
-  border: 10px solid #ffffff;
-}
-
-/* line 684, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area {
-  padding-left: 28px;
-}
-
-/* line 686, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area .card-heading1 {
-  padding-top: 24px;
-  font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
-  color: #002147;
-}
-
-/* line 693, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area .card-text {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #757575;
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-/* line 710, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper {
-  background: linear-gradient(to bottom, #f0f4f9 0%, #f0f4f9 30%, #ffffff 0%, #ffffff 70%);
-}
-
-/* line 714, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-content .course-head-small {
-  color: #fdc800;
-  font-size: 16px;
-}
-
-/* line 718, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-content .couse-head-large {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 48px;
-  color: #002147;
-  font-weight: bold;
-  margin-top: -10px;
-}
-
-/* line 727, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .course-details-head {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 48px;
-  color: #002147;
-  font-weight: bold;
-}
-
-/* line 733, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .coursedetails-paragrape {
-  font-size: 16px;
-  color: #000;
-  padding-bottom: 31px;
-}
-
-/* line 738, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .coursedetails-paragrape {
-  font-size: 16px;
-  color: #000;
-}
-
-/* line 744, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .de-course-list .de-course-para {
-  font-size: 16px;
-  color: #000;
-}
-
-/* line 747, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .de-course-list .de-course-para .de-course-span {
-  font-weight: bold;
-}
-
-/* line 756, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .d-card-text .d-custumer {
-  font-size: 14px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #757575;
-}
-
-/* line 762, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .d-card-text .d-mail {
-  font-size: 14px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #00b2b2;
-  font-weight: bold;
-  margin-top: -16px;
-}
-
-/* line 772, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .img-setting {
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-/* line 777, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .coursedetail-card-ul .coursedetail-card-li {
-  font-size: 17px;
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  padding: 16px;
-}
-
-/* line 784, ../../Desktop/test/assets/scss/base.scss */
-.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .coursedetail-card-ul .coursedetail-card-li span {
-  font-weight: 400;
-}
-
-/* line 793, ../../Desktop/test/assets/scss/base.scss */
+/* line 595, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback {
   background-color: #f0f4f9;
 }
 
-/* line 797, ../../Desktop/test/assets/scss/base.scss */
+/* line 599, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-feedb-heading {
   color: #002147;
   font-weight: bold;
@@ -846,7 +678,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 803, ../../Desktop/test/assets/scss/base.scss */
+/* line 605, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .course-bg {
   color: #fdc800;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -855,29 +687,29 @@
   margin-top: -30px;
 }
 
-/* line 810, ../../Desktop/test/assets/scss/base.scss */
+/* line 612, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-para {
   font-size: 16px;
   color: #000;
 }
 
-/* line 814, ../../Desktop/test/assets/scss/base.scss */
+/* line 616, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .detail-feedb-small {
   color: #002147;
   font-size: 16px;
 }
 
-/* line 818, ../../Desktop/test/assets/scss/base.scss */
+/* line 620, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-feedb-image {
   margin-bottom: 10px;
 }
 
-/* line 820, ../../Desktop/test/assets/scss/base.scss */
+/* line 622, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-feedb-image .coursed-image-sec {
   z-index: 2;
 }
 
-/* line 825, ../../Desktop/test/assets/scss/base.scss */
+/* line 625, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-feedb-image .feedb-image-con {
   margin-left: -15px;
   z-index: 1;
@@ -888,25 +720,25 @@
   background-color: #ffffff;
 }
 
-/* line 835, ../../Desktop/test/assets/scss/base.scss */
+/* line 635, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-feedb-image .feedb-image-con .coused-feedb-image-head {
   color: #002147;
   font-size: 16px;
 }
 
-/* line 841, ../../Desktop/test/assets/scss/base.scss */
+/* line 641, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-content .coursed-feedb-image .feedb-image-con .course-feedb-image-p {
   color: #757575;
   padding-left: 10px;
   font-size: 12px;
 }
 
-/* line 849, ../../Desktop/test/assets/scss/base.scss */
+/* line 649, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-image {
   position: relative;
 }
 
-/* line 852, ../../Desktop/test/assets/scss/base.scss */
+/* line 651, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-image .detail-image {
   background-color: #fdc800;
   position: absolute;
@@ -915,7 +747,7 @@
   padding: 5px;
 }
 
-/* line 860, ../../Desktop/test/assets/scss/base.scss */
+/* line 659, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-image .detail-content {
   position: relative;
   background-color: #ffffff;
@@ -925,7 +757,7 @@
   border-radius: 3px;
 }
 
-/* line 868, ../../Desktop/test/assets/scss/base.scss */
+/* line 667, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-image .detail-content .detail-short-head {
   padding-top: 15px;
   color: #212529;
@@ -933,7 +765,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 877, ../../Desktop/test/assets/scss/base.scss */
+/* line 674, ../../Desktop/test/assets/scss/base.scss */
 .content-wrapper .course-detail-feedback .course-detail-image .detail-content .detail-short-para {
   color: #757575;
   font-size: 14px;
@@ -941,44 +773,220 @@
   padding-bottom: 10px;
 }
 
-/* line 887, ../../Desktop/test/assets/scss/base.scss */
+/* line 684, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper {
+  background: linear-gradient(to bottom, #f0f4f9 0%, #f0f4f9 30%, #ffffff 0%, #ffffff 70%);
+}
+
+/* line 698, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .course-content .course-head-small {
+  color: #fdc800;
+  font-size: 16px;
+}
+
+/* line 702, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .course-content .couse-head-large {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #002147;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+/* line 711, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .label {
+  color: #002147;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* line 717, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .btn-group .course-button {
+  margin-left: 3px;
+  background-color: #ffffff;
+  border-top: 2px solid #757575;
+  border-left: 2px solid #757575;
+  border-bottom: 2px solid #757575;
+}
+
+/* line 724, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .btn-group .btn {
+  border-radius: 1px;
+}
+
+/* line 727, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .course-relate .btn-group .course-drop-arrow {
+  border-top: 2px solid #757575;
+  border-right: 2px solid #757575;
+  border-bottom: 2px solid #757575;
+  background-color: #ffffff;
+}
+
+/* line 738, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .image-card {
+  background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  padding: 20px;
+  border-bottom: 0px;
+}
+
+/* line 745, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .image-card .image-sort {
+  position: relative;
+  bottom: -40px;
+  border: 10px solid #ffffff;
+}
+
+/* line 751, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area {
+  padding-left: 28px;
+}
+
+/* line 753, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area .card-heading1 {
+  padding-top: 24px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: #002147;
+}
+
+/* line 760, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-wrapper .select-course-wrapper .card .card-content-area .card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #757575;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* line 777, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper {
+  background: linear-gradient(to bottom, #f0f4f9 0%, #f0f4f9 30%, #ffffff 0%, #ffffff 70%);
+}
+
+/* line 781, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-content .course-head-small {
+  color: #fdc800;
+  font-size: 16px;
+}
+
+/* line 785, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-content .couse-head-large {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #002147;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+/* line 794, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .course-details-head {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 48px;
+  color: #002147;
+  font-weight: bold;
+}
+
+/* line 800, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .coursedetails-paragrape {
+  font-size: 16px;
+  color: #000;
+  padding-bottom: 31px;
+}
+
+/* line 805, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .coursedetails-paragrape {
+  font-size: 16px;
+  color: #000;
+}
+
+/* line 811, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .de-course-list .de-course-para {
+  font-size: 16px;
+  color: #000;
+}
+
+/* line 814, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .course-detail-heading .de-course-list .de-course-para .de-course-span {
+  font-weight: bold;
+}
+
+/* line 823, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .d-card-text .d-custumer {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #757575;
+}
+
+/* line 829, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .d-card-text .d-mail {
+  font-size: 14px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #00b2b2;
+  font-weight: bold;
+  margin-top: -16px;
+}
+
+/* line 839, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .img-setting {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+/* line 844, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .coursedetail-card-ul .coursedetail-card-li {
+  font-size: 17px;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 16px;
+}
+
+/* line 851, ../../Desktop/test/assets/scss/base.scss */
+.content-wrapper .course-details-wrapper .course-details-relate .coursedetail-main .coursedetail-card-ul .coursedetail-card-li span {
+  font-weight: 400;
+}
+
+/* line 868, ../../Desktop/test/assets/scss/base.scss */
 .footer {
   background-color: #002147;
 }
 
-/* line 890, ../../Desktop/test/assets/scss/base.scss */
+/* line 871, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top {
   color: #ffffff;
 }
 
-/* line 893, ../../Desktop/test/assets/scss/base.scss */
+/* line 874, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .ft-info-heading {
   font-size: 20px;
 }
 
-/* line 899, ../../Desktop/test/assets/scss/base.scss */
+/* line 880, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top {
   margin-left: 1px;
 }
 
-/* line 901, ../../Desktop/test/assets/scss/base.scss */
+/* line 882, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top li {
   padding-top: 10px;
 }
 
-/* line 904, ../../Desktop/test/assets/scss/base.scss */
+/* line 885, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .info-footer-top .ft-info-link {
   color: #ffffff;
   font-weight: 300;
   margin-top: 10px;
 }
 
-/* line 911, ../../Desktop/test/assets/scss/base.scss */
+/* line 892, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li {
   padding-top: 10px;
 }
 
-/* line 913, ../../Desktop/test/assets/scss/base.scss */
+/* line 894, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a {
   font-size: 14px;
   color: #ffffff;
@@ -986,82 +994,82 @@
   font-weight: 300;
 }
 
-/* line 918, ../../Desktop/test/assets/scss/base.scss */
+/* line 899, ../../Desktop/test/assets/scss/base.scss */
 .footer .footer-top .contact-info1 li a i {
   color: #ffffff;
   padding-right: 6px;
   margin-left: 6px;
 }
 
-/* line 938, ../../Desktop/test/assets/scss/base.scss */
+/* line 919, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container {
   background-color: #fdc800;
   height: 92px;
 }
 
-/* line 941, ../../Desktop/test/assets/scss/base.scss */
+/* line 922, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .copyright {
   margin-top: 40px;
   margin-left: 10px;
 }
 
-/* line 945, ../../Desktop/test/assets/scss/base.scss */
+/* line 926, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .footer-right {
   padding-top: 40px;
   padding-right: 50px;
 }
 
-/* line 952, ../../Desktop/test/assets/scss/base.scss */
+/* line 933, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 956, ../../Desktop/test/assets/scss/base.scss */
+/* line 937, ../../Desktop/test/assets/scss/base.scss */
 .footer .ftr-bottom .container .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
 
 @media (max-width: 567px) {
-  /* line 966, ../../Desktop/test/assets/scss/base.scss */
+  /* line 947, ../../Desktop/test/assets/scss/base.scss */
   .navbar {
     padding: 28px 0;
   }
 }
 
 @media (max-width: 667px) {
-  /* line 974, ../../Desktop/test/assets/scss/base.scss */
+  /* line 955, ../../Desktop/test/assets/scss/base.scss */
   .image {
     width: 300px;
     margin: 0;
     padding-bottom: 100px;
   }
-  /* line 979, ../../Desktop/test/assets/scss/base.scss */
+  /* line 960, ../../Desktop/test/assets/scss/base.scss */
   .copyright {
     font-size: 9px;
   }
-  /* line 982, ../../Desktop/test/assets/scss/base.scss */
+  /* line 963, ../../Desktop/test/assets/scss/base.scss */
   .footer-top {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  /* line 987, ../../Desktop/test/assets/scss/base.scss */
+  /* line 968, ../../Desktop/test/assets/scss/base.scss */
   .feedback-content {
     width: 300px;
   }
-  /* line 992, ../../Desktop/test/assets/scss/base.scss */
+  /* line 973, ../../Desktop/test/assets/scss/base.scss */
   .footer-p {
     padding-left: 5rem;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 992px) {
-  /* line 1000, ../../Desktop/test/assets/scss/base.scss */
+  /* line 981, ../../Desktop/test/assets/scss/base.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 1002, ../../Desktop/test/assets/scss/base.scss */
+  /* line 983, ../../Desktop/test/assets/scss/base.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
   }
