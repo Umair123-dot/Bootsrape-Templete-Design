@@ -157,13 +157,13 @@ $cardfont: #757575;
                     background-color: $btnYellow; /* Green */
                     border: none;
                     color: $black;
-                    height: 40px;
+                    
                     padding-top: 10px;
                     font-size: 13px;
                     margin-right: 10px;
                     border-radius: 4px;
 
-                    width: 100px;
+                    
 
                     cursor: pointer;
                 }
@@ -209,7 +209,7 @@ $cardfont: #757575;
                 }
                 .time {
                     flex-basis: 100px;
-                    margin-left: 30px;
+                    // margin-left: 30px;
 
                     .t-hours {
                         margin-top: 50px;
@@ -236,6 +236,7 @@ $cardfont: #757575;
     }
 
     .top-feature-wrappers {
+
         margin-bottom: 50px;
 
         .top-heading {
@@ -244,29 +245,43 @@ $cardfont: #757575;
             font-family: Georgia, "Times New Roman", Times, serif;
         }
 
-        .card-image {
-            position: relative;
+        .card {
+                .image-card {
+                    background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    min-height: 200px;
+                    padding: 20px;
+                    border-bottom: 0px;
+                    .image-sort {
+                        position: relative;
+                        bottom: -40px;
+                        border: 10px solid $whitebtn;
+                    }
+                }
+                .card-content-area {
+                    padding-left: 28px;
+                    .card-heading1 {
+                        padding-top: 24px;
+                        font-weight: bold;
+                        font-family: "Times New Roman", Times, serif;
+                        font-size: 15px;
+                        color: $navlogo;
+                    }
+                    .card-text {
+                        font-family: Georgia, "Times New Roman", Times, serif;
+                        color: $cardfont;
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                }
+                // .image-large {
+                //     .image-large {
+                //         height: 100%;
+                //     }
 
-            .card-short-image {
-                position: absolute;
-                top: 72%;
-                left: 10px;
-                border: 7px solid $whitebtn;
+                // }
             }
-        }
-        .card-heading {
-            padding-top: 15px;
-            font-weight: bold;
-            font-family: "Times New Roman", Times, serif;
-            font-size: 15px;
-            color: $navlogo;
-        }
-        .card-text {
-            font-family: Georgia, "Times New Roman", Times, serif;
-            color: $cardfont;
-            font-size: 14px;
-            margin-top: 20px;
-        }
     }
     // subscribe-------------------------------------------------------------------------------------
     .suscribe-wrapper {
@@ -347,10 +362,10 @@ $cardfont: #757575;
             background-repeat: no-repeat;
             background-size: cover;
             .result-seciton {
-                .result-image {
-                    margin-top: 30px;
-                    margin-bottom: 30px;
-                }
+                // .result-image {
+                //     margin-top: 30px;
+                //     margin-bottom: 30px;
+                // }
                 .result-para {
                     .result-number {
                         margin-right: -40px;
@@ -378,78 +393,92 @@ $cardfont: #757575;
     }
 
     .feedback-wrapper {
-        .feeback-row {
-            .feedback-main-image {
-                margin-left: 30px;
-                margin-top: 30px;
-                margin-bottom: 30px;
-                .feed-upper-image {
-                    margin-top: 30px;
-                    margin-left: 30px;
-
-                    background-color: $btnYellow;
-                    border-radius: 3px;
-                    padding: 5px 5px 5px 5px;
-                }
-                .feedback-content {
-                    background-color: white;
-                    width: 400px;
-                    border-radius: 3px;
-                    .feed-heading {
-                        color: #212529;
-                        font-size: 20px;
-                        padding-top: 25px;
-                        font-family: Georgia, "Times New Roman", Times, serif;
-                    }
-                    .feed-sub-heading {
-                        color: #757575;
-                        font-size: 14px;
-                        margin-top: -15px;
-                    }
-                }
-            }
-        }
-        // image area end----------------------------------------------
-        .feedback-con {
-            margin-top: 12px;
-            .feedb-heading {
+        .course-detail-content {
+            .coursed-feedb-heading {
                 color: $navlogo;
                 font-weight: bold;
                 font-size: 48px;
                 font-family: Georgia, "Times New Roman", Times, serif;
-                span {
-                    color: $btnYellow;
-                    font-family: Georgia, "Times New Roman", Times, serif;
-                    font-weight: bold;
-                }
             }
-            .feedb-para {
+            .course-bg {
+                color: $btnYellow;
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-weight: bold;
+                font-size: 48px;
+                margin-top: -30px;
+            }
+            .coursed-para {
                 font-size: 16px;
-                font-family: "Inter", sans-serif;
                 color: $black;
             }
-            .feedb-small {
+            .detail-feedb-small {
                 color: $navlogo;
-                font-family: "Inter", sans-serif;
-                font-family: "Inter", sans-serif;
                 font-size: 16px;
             }
-            .feedb-imageh {
-                background-color: $bgnavbar;
-                padding: 10px 10px 10px 10px;
+            .coursed-feedb-image {
+                margin-bottom: 10px;
+                .coursed-image-sec {
+                    z-index: 2;
+                    
+                   
+                }
                 .feedb-image-con {
-                    padding-top: 10px;
-                    padding-left: 20px;
-                    .feedb-image-head {
+                    // padding: 18px 50px 10px 30px;
+                    margin-left: -15px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    padding-left: 40px;
+                   padding-right: 30px;
+                    padding-top: 25px;
+                    background-color:$bgnavbar;
+                    
+                    .coused-feedb-image-head {
                         color: $navlogo;
-                        font-family: "Inter", sans-serif;
+                     
                         font-size: 16px;
                     }
-                    .feedb-image-p {
+
+                    .course-feedb-image-p {
                         color: $cardfont;
+                        padding-left: 10px;
                         font-size: 12px;
-                        font-family: "Inter", "sans-serif";
                     }
+                }
+            }
+        }
+        .course-detail-image {
+           
+            position: relative;
+            .detail-image {
+                background-color: #fdc800;
+                position: absolute;
+                top: -40px;
+                left: -20px;
+                padding: 5px;
+            }
+
+            .detail-content {
+                position: relative;
+                background-color:$whitebtn;
+                bottom: 35px;
+                left: 55px;
+                width: 67%;
+                border-radius: 3px;
+
+                .detail-short-head {
+                    padding-top: 15px;
+                    color: #212529;
+                    font-size: 20px;
+                    
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    
+                
+                }
+                .detail-short-para {
+                    color: #757575;
+                    font-size: 14px;
+                    margin-top: -15px;
+                    padding-bottom: 10px;
                 }
             }
         }
@@ -762,36 +791,96 @@ $cardfont: #757575;
     }
 
     .course-detail-feedback {
-        margin-top: 40px;
-        margin-left: 50px;
+         background-color: $bgnavbar;
+        // feedbaccontent-area
+        .course-detail-content {
+            .coursed-feedb-heading {
+                color: $navlogo;
+                font-weight: bold;
+                font-size: 48px;
+                font-family: Georgia, "Times New Roman", Times, serif;
+            }
+            .course-bg {
+                color: $btnYellow;
+                font-family: Georgia, "Times New Roman", Times, serif;
+                font-weight: bold;
+                font-size: 48px;
+                margin-top: -30px;
+            }
+            .coursed-para {
+                font-size: 16px;
+                color: $black;
+            }
+            .detail-feedb-small {
+                color: $navlogo;
+                font-size: 16px;
+            }
+            .coursed-feedb-image {
+                margin-bottom: 10px;
+                .coursed-image-sec {
+                    z-index: 2;
+                    
+                   
+                }
+                .feedb-image-con {
+                    // padding: 18px 50px 10px 30px;
+                    margin-left: -15px;
+                    z-index: 1;
+                    border-radius: 5px;
+                    padding-left: 40px;
+                   padding-right: 30px;
+                    padding-top: 25px;
+                    background-color: #ffffff;
+                    
+                    .coused-feedb-image-head {
+                        color: $navlogo;
+                     
+                        font-size: 16px;
+                    }
+
+                    .course-feedb-image-p {
+                        color: $cardfont;
+                        padding-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
         .course-detail-image {
            
-            // background-repeat: no-repeat;
-            // background-size: cover;
-            // min-height: 500px;
-            // padding: 0px;
-            // border-bottom: 0px;
-            // position: relative;
-            // .detail-image {
-            //     background-color: #fdc800;
-            //     position: absolute;
-            //     top: -40px;
-            //     left: -20px;
-            //     padding: 5px;
-            // }
+            position: relative;
+            .detail-image {
+                background-color: #fdc800;
+                position: absolute;
+                top: -40px;
+                left: -20px;
+                padding: 5px;
+            }
 
-            // .detail-content {
-            //     position: absolute;
-            //     background-color: blue;
-            //     bottom: 55px;
-            //     left: 100px;
-               
-            //     .detail-short-head {
-            //         padding-top: 200px  ;
-            //     }
-            //     .detail-short-para {
-            //     }
-            // }
+            .detail-content {
+                position: relative;
+                background-color:$whitebtn;
+                bottom: 35px;
+                left: 55px;
+                width: 67%;
+                border-radius: 3px;
+
+                .detail-short-head {
+                    padding-top: 15px;
+                    color: #212529;
+                    font-size: 20px;
+                    
+                    font-family: Georgia, "Times New Roman", Times, serif;
+                    
+                
+                }
+                .detail-short-para {
+                    color: #757575;
+                    font-size: 14px;
+                    margin-top: -15px;
+                    padding-bottom: 10px;
+                }
+            }
         }
     }
 }
