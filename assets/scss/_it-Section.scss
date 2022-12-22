@@ -1,0 +1,53 @@
+.it-wreapper {
+    padding-bottom: 87px;
+    background-color: $bgnavbar;
+    @media (max-width: 667px) {
+        .text {
+        }
+    }
+    .image {
+        margin: 30px 40px 60px 10px;
+    }
+    .text {
+        margin: 115px 0px 160px 10px;
+        h4 {
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            color: $navlogo;
+        }
+        h1 {
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-weight: 60;
+            color: $navlogo;
+        }
+        .multi-btns {
+            .btn {
+                background-color: $btnYellow; /* Green */
+                border: none;
+                color: $black;
+                
+                padding-top: 10px;
+                font-size: 13px;
+                margin-right: 10px;
+                border-radius: 4px;
+
+                
+
+                cursor: pointer;
+            }
+            .btn-second {
+                background-color: $whitebtn; /* Green */
+                border: none;
+                color: $black;
+
+                font-size: 12px;
+                margin-right: 10px;
+                border-radius: 4px;
+
+                width: 100px;
+
+                cursor: pointer;
+            }
+        }
+    }
+}
