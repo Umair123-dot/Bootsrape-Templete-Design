@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@100;200;500;600;700&family=Noto+Sans+Georgian:wght@300;400;500;600;800&family=Nunito:wght@200&display=swap");
+/* line 1, ../../Desktop/test/assets/scss/_reusalbleStyles.scss */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* line 10, ../../Desktop/test/assets/scss/_reusalbleStyles.scss */
+.umair, .practice-rapper .umair1:first-child {
+  width: 300px;
+  background-color: blue;
+  height: 300px;
+}
+
 /* line 1, ../../Desktop/test/assets/scss/_topbar.scss */
 .navbar-top {
   background-color: #fdc800;
@@ -60,7 +72,7 @@
 /* line 15, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .navbar-nav .nav-item .nav-link:hover {
   background-color: #fdc800;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 /* line 23, ../../Desktop/test/assets/scss/_header.scss */
@@ -69,9 +81,6 @@
   /* Green */
   border: none;
   color: #000;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin-right: 20px;
   border-radius: 4px;
@@ -79,13 +88,13 @@
   cursor: pointer;
 }
 
-/* line 37, ../../Desktop/test/assets/scss/_header.scss */
+/* line 34, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .btn1:hover {
   background-color: #000;
   color: #ffffff;
 }
 
-/* line 43, ../../Desktop/test/assets/scss/_header.scss */
+/* line 40, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .has-search .form-control {
   padding-left: 1.375rem;
   margin-top: 3px;
@@ -93,14 +102,15 @@
   height: 44px;
 }
 
-/* line 50, ../../Desktop/test/assets/scss/_header.scss */
+/* line 47, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
+  padding-left: 7px;
   display: block;
   width: 2.375rem;
   height: 2.375rem;
-  line-height: 2.375rem;
+  line-height: 3.3rem;
   text-align: center;
   pointer-events: none;
   color: #000;
@@ -991,12 +1001,18 @@
   margin-right: 24px;
 }
 
-/* line 2, ../../Desktop/test/assets/scss/_for-practice.scss */
+/* line 4, ../../Desktop/test/assets/scss/_for-practice.scss */
+.practice-rapper .umair1:first-child div p::before {
+  content: "Mera name Umair Zafar";
+  background-color: yellow;
+}
+
+/* line 14, ../../Desktop/test/assets/scss/_for-practice.scss */
 .practice-rapper .form {
   position: relative;
 }
 
-/* line 4, ../../Desktop/test/assets/scss/_for-practice.scss */
+/* line 16, ../../Desktop/test/assets/scss/_for-practice.scss */
 .practice-rapper .form .fa-solid {
   position: absolute;
   transform: translate(12px, 13px);
@@ -1004,14 +1020,14 @@
   left: 0px;
 }
 
-/* line 10, ../../Desktop/test/assets/scss/_for-practice.scss */
+/* line 22, ../../Desktop/test/assets/scss/_for-practice.scss */
 .practice-rapper .form .umair-btn {
   position: absolute;
   right: 0px;
   top: 0px;
 }
 
-/* line 15, ../../Desktop/test/assets/scss/_for-practice.scss */
+/* line 27, ../../Desktop/test/assets/scss/_for-practice.scss */
 .practice-rapper .form input {
   padding: 10px;
 }
@@ -1069,11 +1085,6 @@
   .sus-content .btn-umair {
     margin-left: -100px;
   }
-}
-
-/* line 32, ../../Desktop/test/assets/scss/base.scss */
-* {
-  font-family: "Inter", sans-serif;
 }
 
 /*# sourceMappingURL=base.css.map */

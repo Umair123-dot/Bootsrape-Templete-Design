@@ -1,4 +1,16 @@
 .practice-rapper {
+    .umair1:first-child{
+    @extend .umair;
+     div p::before{
+        
+        content: "Mera name Umair Zafar";
+
+        background-color: yellow;
+
+
+     }
+
+    }
     .form {
         position: relative;
         .fa-solid {

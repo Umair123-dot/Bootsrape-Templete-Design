@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "reusalbleStyles.css",
+	"sources": [
+		"assets/scss/reusalbleStyles.scss"
+	],
+	"sourcesContent": [
+		"* {\r\n    font-family: \"Inter\", sans-serif;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,mBAAmB;CACnC"
+}

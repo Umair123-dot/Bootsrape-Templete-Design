@@ -1,0 +1,15 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+@mixin khalid(){
+    width: 300px;
+    
+}
+
+.umair {
+    @include khalid();
+
+    background-color:blue;
+    height: 300px;
+ }

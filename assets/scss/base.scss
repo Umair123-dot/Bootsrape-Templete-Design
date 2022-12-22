@@ -1,22 +1,23 @@
 // variables and import files
 @import '_variables';
 
-// components
+// Resusble Stykes
+@import "reusalbleStyles";
 
 //header
-@import '_topbar';
-@import '_header';
+@import 'topbar';
+@import 'header';
 //main section
-@import '_it-Section';
-@import '_timing-section';
-@import '_top-features';
-@import '_feedback-section';
-@import '_result-section';
-@import '_price-section';
-@import '_course-section';
-@import '_subscribe-section';
+@import 'it-Section';
+@import 'timing-section';
+@import 'top-features';
+@import 'feedback-section';
+@import 'result-section';
+@import 'price-section';
+@import 'course-section';
+@import 'subscribe-section';
 @import 'course-detail-section';
-@import '_course-feedback-section';
+@import 'course-feedback-section';
 
 //footer
 @import '_top-footer';
@@ -29,9 +30,7 @@
 //media Queries
 @import '_media-queries';
 
-* {
-    font-family: "Inter", sans-serif;
-}
+
 
 
 
