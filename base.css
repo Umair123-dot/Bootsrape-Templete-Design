@@ -2,9 +2,12 @@
 /* line 1, ../../Desktop/test/assets/scss/_reusalbleStyles.scss */
 * {
   font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* line 10, ../../Desktop/test/assets/scss/_reusalbleStyles.scss */
+/* line 13, ../../Desktop/test/assets/scss/_reusalbleStyles.scss */
 .umair, .practice-rapper .umair1:first-child {
   width: 300px;
   background-color: blue;
@@ -51,17 +54,19 @@
   background-color: #f0f4f9;
 }
 
-/* line 4, ../../Desktop/test/assets/scss/_header.scss */
-.navbar .navbar-brand {
+/* line 6, ../../Desktop/test/assets/scss/_header.scss */
+.navbar .navbar-brand span {
   color: #002147;
+  font-size: 18px;
+  padding-left: 4px;
 }
 
-/* line 7, ../../Desktop/test/assets/scss/_header.scss */
+/* line 12, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .navbar-nav {
   padding-right: 100px;
 }
 
-/* line 10, ../../Desktop/test/assets/scss/_header.scss */
+/* line 16, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .navbar-nav .nav-item .nav-link {
   color: #002147;
   font-weight: bold;
@@ -69,13 +74,13 @@
   padding-right: 20px;
 }
 
-/* line 15, ../../Desktop/test/assets/scss/_header.scss */
+/* line 21, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .navbar-nav .nav-item .nav-link:hover {
   background-color: #fdc800;
   border-radius: 5px;
 }
 
-/* line 23, ../../Desktop/test/assets/scss/_header.scss */
+/* line 29, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .btn1 {
   background-color: #fdc800;
   /* Green */
@@ -88,13 +93,13 @@
   cursor: pointer;
 }
 
-/* line 34, ../../Desktop/test/assets/scss/_header.scss */
+/* line 40, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .btn1:hover {
   background-color: #000;
   color: #ffffff;
 }
 
-/* line 40, ../../Desktop/test/assets/scss/_header.scss */
+/* line 46, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .has-search .form-control {
   padding-left: 1.375rem;
   margin-top: 3px;
@@ -102,7 +107,7 @@
   height: 44px;
 }
 
-/* line 47, ../../Desktop/test/assets/scss/_header.scss */
+/* line 53, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
@@ -122,27 +127,29 @@
   background-color: #f0f4f9;
 }
 
-/* line 8, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 5, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .image {
-  margin: 30px 40px 60px 10px;
+  padding: 90px 0px;
 }
 
-/* line 11, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 9, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text {
   margin: 115px 0px 160px 10px;
 }
 
-/* line 13, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 11, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text h4 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  font-size: 30px;
   color: #002147;
 }
 
-/* line 18, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 17, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 60;
+  font-weight: 400;
+  font-size: 60px;
   color: #002147;
 }
 
@@ -152,24 +159,36 @@
   /* Green */
   border: none;
   color: #000;
-  padding-top: 10px;
-  font-size: 13px;
+  padding: 15px 30px;
+  font-size: 16px;
   margin-right: 10px;
   border-radius: 4px;
   cursor: pointer;
 }
 
-/* line 38, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 36, ../../Desktop/test/assets/scss/_it-Section.scss */
+.it-wreapper .text .multi-btns .btn:hover {
+  background-color: #ffffff;
+  color: #fdc800;
+}
+
+/* line 41, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text .multi-btns .btn-second {
   background-color: #ffffff;
   /* Green */
   border: none;
   color: #000;
-  font-size: 12px;
+  padding: 15px 30px;
+  font-size: 16px;
   margin-right: 10px;
   border-radius: 4px;
-  width: 100px;
   cursor: pointer;
+}
+
+/* line 53, ../../Desktop/test/assets/scss/_it-Section.scss */
+.it-wreapper .text .multi-btns .btn-second:hover {
+  background-color: #002147;
+  color: #ffffff;
 }
 
 /* line 2, ../../Desktop/test/assets/scss/_timing-section.scss */
@@ -189,39 +208,40 @@
   padding-left: 30px;
 }
 
-/* line 14, ../../Desktop/test/assets/scss/_timing-section.scss */
+/* line 15, ../../Desktop/test/assets/scss/_timing-section.scss */
 .timing-wrapper .container .image-text .text-up {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
+  font-size: 30px;
 }
 
-/* line 18, ../../Desktop/test/assets/scss/_timing-section.scss */
+/* line 20, ../../Desktop/test/assets/scss/_timing-section.scss */
 .timing-wrapper .container .image-text .text-up .change-text-c {
   color: #fdc800;
 }
 
-/* line 26, ../../Desktop/test/assets/scss/_timing-section.scss */
+/* line 28, ../../Desktop/test/assets/scss/_timing-section.scss */
 .timing-wrapper .container .lanch-time .time {
   flex-basis: 100px;
 }
 
-/* line 31, ../../Desktop/test/assets/scss/_timing-section.scss */
+/* line 33, ../../Desktop/test/assets/scss/_timing-section.scss */
 .timing-wrapper .container .lanch-time .time .t-hours {
   padding-top: 20px;
   font-size: 60px;
   margin-bottom: -12px;
   font-family: "Glory", sans-serif;
-  font-weight: 1000;
+  font-weight: bold;
 }
 
-/* line 39, ../../Desktop/test/assets/scss/_timing-section.scss */
+/* line 40, ../../Desktop/test/assets/scss/_timing-section.scss */
 .timing-wrapper .container .lanch-time .time .t-hours .time-dot {
-  padding-left: 25px;
+  padding: 20px;
   font-size: 30px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* line 47, ../../Desktop/test/assets/scss/_timing-section.scss */
+/* line 48, ../../Desktop/test/assets/scss/_timing-section.scss */
 .timing-wrapper .container .lanch-time .time .t-minutes {
   margin-left: 3px;
 }
@@ -343,9 +363,10 @@
 /* line 55, ../../Desktop/test/assets/scss/_feedback-section.scss */
 .feedback-wrapper .course-detail-image {
   position: relative;
+  margin-left: 21px;
 }
 
-/* line 58, ../../Desktop/test/assets/scss/_feedback-section.scss */
+/* line 59, ../../Desktop/test/assets/scss/_feedback-section.scss */
 .feedback-wrapper .course-detail-image .detail-image {
   background-color: #fdc800;
   position: absolute;
@@ -354,7 +375,7 @@
   padding: 5px;
 }
 
-/* line 66, ../../Desktop/test/assets/scss/_feedback-section.scss */
+/* line 67, ../../Desktop/test/assets/scss/_feedback-section.scss */
 .feedback-wrapper .course-detail-image .detail-content {
   position: relative;
   background-color: #ffffff;
@@ -364,7 +385,7 @@
   border-radius: 3px;
 }
 
-/* line 74, ../../Desktop/test/assets/scss/_feedback-section.scss */
+/* line 75, ../../Desktop/test/assets/scss/_feedback-section.scss */
 .feedback-wrapper .course-detail-image .detail-content .detail-short-head {
   padding-top: 15px;
   color: #212529;
@@ -372,7 +393,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 83, ../../Desktop/test/assets/scss/_feedback-section.scss */
+/* line 84, ../../Desktop/test/assets/scss/_feedback-section.scss */
 .feedback-wrapper .course-detail-image .detail-content .detail-short-para {
   color: #757575;
   font-size: 14px;
@@ -395,7 +416,7 @@
 
 /* line 14, ../../Desktop/test/assets/scss/_result-section.scss */
 .result-rapper .container .result-seciton .result-para .result-number {
-  margin-right: -40px;
+  margin-right: 0px;
   margin-top: -50px;
   color: #002147;
   font-family: "Noto Sans Georgian", sans-serif;
@@ -804,7 +825,7 @@
   color: #000;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  padding: 16px;
+  padding: 18px;
 }
 
 /* line 76, ../../Desktop/test/assets/scss/_course-detail-section.scss */
@@ -883,9 +904,10 @@
 /* line 57, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
 .course-detail-feedback .course-detail-image {
   position: relative;
+  margin-left: 21px;
 }
 
-/* line 60, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
+/* line 61, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
 .course-detail-feedback .course-detail-image .detail-image {
   background-color: #fdc800;
   position: absolute;
@@ -894,7 +916,7 @@
   padding: 5px;
 }
 
-/* line 68, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
+/* line 69, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
 .course-detail-feedback .course-detail-image .detail-content {
   position: relative;
   background-color: #ffffff;
@@ -904,7 +926,7 @@
   border-radius: 3px;
 }
 
-/* line 76, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
+/* line 77, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
 .course-detail-feedback .course-detail-image .detail-content .detail-short-head {
   padding-top: 15px;
   color: #212529;
@@ -912,7 +934,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 85, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
+/* line 86, ../../Desktop/test/assets/scss/_course-feedback-section.scss */
 .course-detail-feedback .course-detail-image .detail-content .detail-short-para {
   color: #757575;
   font-size: 14px;
@@ -930,34 +952,40 @@
   color: #ffffff;
 }
 
-/* line 7, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 6, ../../Desktop/test/assets/scss/_top-footer.scss */
+.footer .footer-top span {
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+/* line 10, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .ft-info-heading {
   font-size: 20px;
 }
 
-/* line 13, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 16, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .info-footer-top {
   margin-left: 1px;
 }
 
-/* line 15, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 18, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .info-footer-top li {
   padding-top: 10px;
 }
 
-/* line 18, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 21, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .info-footer-top .ft-info-link {
   color: #ffffff;
   font-weight: 300;
   margin-top: 10px;
 }
 
-/* line 25, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 28, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .contact-info1 li {
   padding-top: 10px;
 }
 
-/* line 27, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 30, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .contact-info1 li a {
   font-size: 14px;
   color: #ffffff;
@@ -965,38 +993,26 @@
   font-weight: 300;
 }
 
-/* line 32, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 35, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .footer-top .contact-info1 li a i {
   color: #ffffff;
   padding-right: 6px;
   margin-left: 6px;
 }
 
-/* line 52, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 55, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .ftr-bottom .container {
   background-color: #fdc800;
   height: 92px;
 }
 
-/* line 55, ../../Desktop/test/assets/scss/_top-footer.scss */
-.footer .ftr-bottom .container .copyright {
-  margin-top: 40px;
-  margin-left: 10px;
-}
-
-/* line 59, ../../Desktop/test/assets/scss/_top-footer.scss */
-.footer .ftr-bottom .container .footer-right {
-  padding-top: 40px;
-  padding-right: 50px;
-}
-
-/* line 66, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 69, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .ftr-bottom .container .social-icons li a {
   font-size: 13px;
   color: #000;
 }
 
-/* line 70, ../../Desktop/test/assets/scss/_top-footer.scss */
+/* line 73, ../../Desktop/test/assets/scss/_top-footer.scss */
 .footer .ftr-bottom .container .social-icons li:not(:last-child) {
   margin-right: 24px;
 }
@@ -1032,13 +1048,6 @@
   padding: 10px;
 }
 
-@media (max-width: 567px) {
-  /* line 2, ../../Desktop/test/assets/scss/_media-queries.scss */
-  .navbar {
-    padding: 28px 0;
-  }
-}
-
 @media (max-width: 667px) {
   /* line 10, ../../Desktop/test/assets/scss/_media-queries.scss */
   .image {
@@ -1062,26 +1071,39 @@
   }
   /* line 28, ../../Desktop/test/assets/scss/_media-queries.scss */
   .footer-p {
-    padding-left: 5rem;
+    padding-left: 0px;
   }
   /* line 31, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time {
     margin-top: -100px;
-    padding-left: 30px;
+    padding-left: 20px;
     padding-bottom: 30px;
   }
-  /* line 40, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 38, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .t-hours {
+    font-size: 30px !important;
+  }
+  /* line 41, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .lanch-time .time .time-dot {
+    font-size: 20px;
+  }
+  /* line 44, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .lanch-time .time .t-minutes {
     font-size: 10px;
+    margin-left: 0px;
+  }
+  /* line 52, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .text-up {
+    font-size: 15px !important;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 992px) {
-  /* line 50, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 64, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 52, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 66, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
   }

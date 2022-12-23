@@ -9,11 +9,13 @@
     
         .image-text {
             .image {
+                
                 padding-left: 30px;
             }
             .text-up {
                 font-family: Georgia, "Times New Roman", Times, serif;
                 font-weight: bold;
+                font-size: 30px;
                
                 .change-text-c {
                     color: $btnYellow;
@@ -33,11 +35,10 @@
                     font-size: 60px;
                     margin-bottom: -12px;
                     font-family: "Glory", sans-serif;
-                    // font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                    //font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                    font-weight: 1000;
+                  
+                    font-weight: bold;
                     .time-dot {
-                        padding-left: 25px;
+                        padding: 20px;
                         font-size: 30px;
 
                         font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode",

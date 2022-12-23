@@ -1,10 +1,10 @@
-@media (max-width: 567px) {
-    .navbar {
-        padding: 28px 0;
-    }
-    a.nav-link {
-    }
-}
+// @media (max-width: 567px) {
+//     .navbar {
+//         padding: 28px 0;
+//     }
+//     a.nav-link {
+//     }
+// }
 
 @media (max-width: 667px) {
     .image {
@@ -26,21 +26,35 @@
     .course-content {
     }
     .footer-p {
-        padding-left: 5rem;
+        padding-left: 0px;
     }
     .lanch-time{
         margin-top: -100px;
-        padding-left: 30px;
+        padding-left:20px;
         padding-bottom: 30px;
        
         .time {
-           
-            
-
-            .t-hours {
-                font-size: 10px;
+             
+            .t-hours{
+                font-size: 30px !important;
             }
+            .time-dot{
+                font-size: 20px;
+            }
+            .t-minutes{
+                font-size: 10px;
+                margin-left: 0px;
+            }
+
+            
         }
+    }
+    .text-up {
+        
+        font-size: 15px !important;
+        
+       
+       
     }
 }
 @media screen and (max-width: 992px) {

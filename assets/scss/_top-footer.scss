@@ -3,7 +3,10 @@
     background-color: #002147;
     .footer-top {
         color: $whitebtn;
-
+        span{
+            font-size: 24px;
+            padding-left: 10px;
+        }
         .ft-info-heading {
             font-size: 20px;
         }
@@ -53,12 +56,12 @@
             background-color: #fdc800;
             height: 92px;
             .copyright {
-                margin-top: 40px;
-                margin-left: 10px;
+          
+
+               
             }
             .footer-right {
-                padding-top: 40px;
-                padding-right: 50px;
+              
             }
 
             .social-icons {
