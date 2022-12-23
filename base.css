@@ -1061,49 +1061,47 @@
   }
   /* line 18, ../../Desktop/test/assets/scss/_media-queries.scss */
   .footer-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-left: 50px;
   }
-  /* line 23, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 21, ../../Desktop/test/assets/scss/_media-queries.scss */
   .feedback-content {
     width: 300px;
   }
-  /* line 28, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 26, ../../Desktop/test/assets/scss/_media-queries.scss */
   .footer-p {
     padding-left: 0px;
   }
-  /* line 31, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 29, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time {
     margin-top: -100px;
     padding-left: 20px;
     padding-bottom: 30px;
   }
-  /* line 38, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 36, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .t-hours {
     font-size: 30px !important;
   }
-  /* line 41, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 39, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .time-dot {
     font-size: 20px;
   }
-  /* line 44, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 42, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .t-minutes {
     font-size: 10px;
     margin-left: 0px;
   }
-  /* line 52, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 50, ../../Desktop/test/assets/scss/_media-queries.scss */
   .text-up {
     font-size: 15px !important;
   }
 }
 
-@media screen and (min-width: 767px) and (max-width: 992px) {
-  /* line 64, ../../Desktop/test/assets/scss/_media-queries.scss */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* line 62, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 66, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 64, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
   }

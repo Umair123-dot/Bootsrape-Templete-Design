@@ -16,9 +16,7 @@
         font-size: 9px;
     }
     .footer-top {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       padding-left: 50px;
     }
     .feedback-content {
         width: 300px;
@@ -60,13 +58,12 @@
 @media screen and (max-width: 992px) {
 }
 
-@media screen and(min-width:767px) and (max-width: 992px) {
+@media screen and(min-width:768px) and (max-width: 992px) {
     .sus-content {
         margin-bottom: 150px;
         .btn-umair {
             margin-left: -100px;
         }
     }
-    .price-m {
-    }
+    
 }
