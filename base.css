@@ -166,13 +166,13 @@
   cursor: pointer;
 }
 
-/* line 36, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 37, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text .multi-btns .btn:hover {
   background-color: #ffffff;
   color: #fdc800;
 }
 
-/* line 41, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 42, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text .multi-btns .btn-second {
   background-color: #ffffff;
   /* Green */
@@ -185,7 +185,7 @@
   cursor: pointer;
 }
 
-/* line 53, ../../Desktop/test/assets/scss/_it-Section.scss */
+/* line 54, ../../Desktop/test/assets/scss/_it-Section.scss */
 .it-wreapper .text .multi-btns .btn-second:hover {
   background-color: #002147;
   color: #ffffff;
@@ -1094,14 +1094,22 @@
   .text-up {
     font-size: 15px !important;
   }
+  /* line 57, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .btn {
+    margin-bottom: 20px;
+  }
+  /* line 60, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .btn-second {
+    width: 152px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 62, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 68, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 64, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 70, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
   }
