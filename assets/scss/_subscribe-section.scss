@@ -43,6 +43,9 @@
                 outline: 0;
                 display: block;
                 width: 100%;
+                &::placeholder{
+                    font-size: 20px;
+                }
             }
         }
         .subs-heading {

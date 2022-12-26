@@ -1,16 +1,13 @@
-// @media (max-width: 567px) {
-//     .navbar {
-//         padding: 28px 0;
-//     }
-//     a.nav-link {
-//     }
-// }
+
 
 @media (max-width: 667px) {
     .image {
         width: 300px;
         margin: 0;
         padding-bottom: 100px;
+    }
+    .detail-image{
+        top: -80px !important;
     }
     .copyright {
         font-size: 9px;
@@ -60,15 +57,44 @@
     .btn-second{
         width: 152px;
     }
+    input {
+       
+      
+        &::placeholder{
+            font-size: 13px !important;
+        }
+    }
+    .detail-content{
+        left: 64px !important;
+    }
+  
 }
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) and (max-width:1199px) {
+
+    .t-hours{
+        margin-top: 25px;
+        font-size: 50px !important;
+       
+    }
+    
 }
 
 @media screen and(min-width:768px) and (max-width: 992px) {
+
     .sus-content {
         margin-bottom: 150px;
         .btn-umair {
             margin-left: -100px;
+        }
+    }
+    .detail-image{
+        top: -100px !important;
+    }
+    input {
+       
+      
+        &::placeholder{
+            font-size: 13px !important;
         }
     }
     

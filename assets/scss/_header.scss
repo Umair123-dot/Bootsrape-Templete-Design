@@ -1,23 +1,35 @@
 .navbar {
     background-color: $bgnavbar;
 
+
     .navbar-brand {
-        
-        span{
-         color: $navlogo;
-         font-size: 18px;
-         padding-left: 4px;
+        span {
+            color: $navlogo;
+            font-size: 18px;
+            padding-left: 4px;
         }
     }
     .navbar-nav {
-      
         padding-right: 100px;
         .nav-item {
+           .active{
+                background-color:$btnYellow;
+                border-radius: 3px;
+                color: white;
+                &:hover{
+                    background-color: red;
+                }
+              
+
+            }
+            
             .nav-link {
                 color: $navlogo;
                 font-weight: bold;
                 padding-left: 20px;
                 padding-right: 20px;
+              
+              
                 &:hover {
                     background-color: $btnYellow;
                     border-radius: 5px;
@@ -33,7 +45,7 @@
             font-size: 16px;
             margin-right: 20px;
             border-radius: 4px;
-           
+
             width: 100px;
 
             cursor: pointer;
@@ -48,6 +60,13 @@
             margin-top: 3px;
             width: 44px;
             height: 44px;
+            &:focus{
+                width: 250px;
+            }
+        }
+        input[type=text]:focus {
+            width: 250px;
+            margin-left: 10px;
         }
 
         .has-search .form-control-feedback {

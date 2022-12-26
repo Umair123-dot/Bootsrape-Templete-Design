@@ -66,7 +66,19 @@
   padding-right: 100px;
 }
 
-/* line 16, ../../Desktop/test/assets/scss/_header.scss */
+/* line 15, ../../Desktop/test/assets/scss/_header.scss */
+.navbar .navbar-nav .nav-item .active {
+  background-color: #fdc800;
+  border-radius: 3px;
+  color: white;
+}
+
+/* line 19, ../../Desktop/test/assets/scss/_header.scss */
+.navbar .navbar-nav .nav-item .active:hover {
+  background-color: red;
+}
+
+/* line 26, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .navbar-nav .nav-item .nav-link {
   color: #002147;
   font-weight: bold;
@@ -74,13 +86,13 @@
   padding-right: 20px;
 }
 
-/* line 21, ../../Desktop/test/assets/scss/_header.scss */
+/* line 33, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .navbar-nav .nav-item .nav-link:hover {
   background-color: #fdc800;
   border-radius: 5px;
 }
 
-/* line 29, ../../Desktop/test/assets/scss/_header.scss */
+/* line 41, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .btn1 {
   background-color: #fdc800;
   /* Green */
@@ -93,13 +105,13 @@
   cursor: pointer;
 }
 
-/* line 40, ../../Desktop/test/assets/scss/_header.scss */
+/* line 52, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .btn1:hover {
   background-color: #000;
   color: #ffffff;
 }
 
-/* line 46, ../../Desktop/test/assets/scss/_header.scss */
+/* line 58, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .has-search .form-control {
   padding-left: 1.375rem;
   margin-top: 3px;
@@ -107,7 +119,18 @@
   height: 44px;
 }
 
-/* line 53, ../../Desktop/test/assets/scss/_header.scss */
+/* line 63, ../../Desktop/test/assets/scss/_header.scss */
+.navbar .search .has-search .form-control:focus {
+  width: 250px;
+}
+
+/* line 67, ../../Desktop/test/assets/scss/_header.scss */
+.navbar .search input[type=text]:focus {
+  width: 250px;
+  margin-left: 10px;
+}
+
+/* line 72, ../../Desktop/test/assets/scss/_header.scss */
 .navbar .search .has-search .form-control-feedback {
   position: absolute;
   z-index: 2;
@@ -718,14 +741,19 @@
   width: 100%;
 }
 
-/* line 48, ../../Desktop/test/assets/scss/_subscribe-section.scss */
+/* line 46, ../../Desktop/test/assets/scss/_subscribe-section.scss */
+.suscribe-wrapper .sus-content .form-input input::placeholder {
+  font-size: 20px;
+}
+
+/* line 51, ../../Desktop/test/assets/scss/_subscribe-section.scss */
 .suscribe-wrapper .sus-content .subs-heading {
   font-size: 16px;
   color: #fdc800;
   font-weight: bold;
 }
 
-/* line 54, ../../Desktop/test/assets/scss/_subscribe-section.scss */
+/* line 57, ../../Desktop/test/assets/scss/_subscribe-section.scss */
 .suscribe-wrapper .main-heading {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 48px;
@@ -733,12 +761,12 @@
 }
 
 @media (max-width: 768px) {
-  /* line 60, ../../Desktop/test/assets/scss/_subscribe-section.scss */
+  /* line 63, ../../Desktop/test/assets/scss/_subscribe-section.scss */
   .suscribe-wrapper .sus-content {
     margin-top: 4px;
     padding-bottom: 20px;
   }
-  /* line 64, ../../Desktop/test/assets/scss/_subscribe-section.scss */
+  /* line 67, ../../Desktop/test/assets/scss/_subscribe-section.scss */
   .suscribe-wrapper .subscribe-image {
     padding-top: 10px;
     margin-left: 30px;
@@ -1049,69 +1077,97 @@
 }
 
 @media (max-width: 667px) {
-  /* line 10, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 4, ../../Desktop/test/assets/scss/_media-queries.scss */
   .image {
     width: 300px;
     margin: 0;
     padding-bottom: 100px;
   }
-  /* line 15, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 9, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .detail-image {
+    top: -80px !important;
+  }
+  /* line 12, ../../Desktop/test/assets/scss/_media-queries.scss */
   .copyright {
     font-size: 9px;
   }
-  /* line 18, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 15, ../../Desktop/test/assets/scss/_media-queries.scss */
   .footer-top {
     margin-left: 30px;
   }
-  /* line 21, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 18, ../../Desktop/test/assets/scss/_media-queries.scss */
   .feedback-content {
     width: 300px;
   }
-  /* line 26, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 23, ../../Desktop/test/assets/scss/_media-queries.scss */
   .footer-p {
     padding-left: 0px;
   }
-  /* line 29, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 26, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time {
     margin-top: -100px;
     padding-left: 20px;
     padding-bottom: 30px;
   }
-  /* line 36, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 33, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .t-hours {
     font-size: 30px !important;
   }
-  /* line 39, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 36, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .time-dot {
     font-size: 20px;
   }
-  /* line 42, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 39, ../../Desktop/test/assets/scss/_media-queries.scss */
   .lanch-time .time .t-minutes {
     font-size: 10px;
     margin-left: 0px;
   }
-  /* line 50, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 47, ../../Desktop/test/assets/scss/_media-queries.scss */
   .text-up {
     font-size: 15px !important;
   }
-  /* line 57, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 54, ../../Desktop/test/assets/scss/_media-queries.scss */
   .btn {
     margin-bottom: 20px;
   }
-  /* line 60, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 57, ../../Desktop/test/assets/scss/_media-queries.scss */
   .btn-second {
     width: 152px;
+  }
+  /* line 63, ../../Desktop/test/assets/scss/_media-queries.scss */
+  input::placeholder {
+    font-size: 13px !important;
+  }
+  /* line 67, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .detail-content {
+    left: 64px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 74, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .t-hours {
+    margin-top: 25px;
+    font-size: 50px !important;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 68, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 84, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content {
     margin-bottom: 150px;
   }
-  /* line 70, ../../Desktop/test/assets/scss/_media-queries.scss */
+  /* line 86, ../../Desktop/test/assets/scss/_media-queries.scss */
   .sus-content .btn-umair {
     margin-left: -100px;
+  }
+  /* line 90, ../../Desktop/test/assets/scss/_media-queries.scss */
+  .detail-image {
+    top: -100px !important;
+  }
+  /* line 96, ../../Desktop/test/assets/scss/_media-queries.scss */
+  input::placeholder {
+    font-size: 13px !important;
   }
 }
 
