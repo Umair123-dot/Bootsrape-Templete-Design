@@ -246,19 +246,19 @@
   margin-left: 3px;
 }
 
-/* line 1, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 1, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers {
   margin-bottom: 50px;
 }
 
-/* line 5, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 5, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers .top-heading {
   color: #002147;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* line 12, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 12, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers .card .image-card {
   background: url("assets/images/difference-between-ux-ui-ux-ui-min-6cd3a171087987d31ecdb67ad67c0ab8136242f7b4e476a0e509017aa8bbc755.png");
   background-repeat: no-repeat;
@@ -268,19 +268,19 @@
   border-bottom: 0px;
 }
 
-/* line 19, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 19, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers .card .image-card .image-sort {
   position: relative;
   bottom: -40px;
   border: 10px solid #ffffff;
 }
 
-/* line 25, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 25, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers .card .card-content-area {
   padding-left: 28px;
 }
 
-/* line 27, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 27, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers .card .card-content-area .card-heading1 {
   padding-top: 24px;
   font-weight: bold;
@@ -289,7 +289,7 @@
   color: #002147;
 }
 
-/* line 34, ../../Desktop/test/assets/scss/_top-features.scss */
+/* line 34, ../../Desktop/test/assets/scss/top-features.scss */
 .top-feature-wrappers .card .card-content-area .card-text {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #757575;

@@ -9,7 +9,7 @@
 		"assets/scss/_header.scss",
 		"assets/scss/_it-Section.scss",
 		"assets/scss/_timing-section.scss",
-		"assets/scss/_top-features.scss",
+		"assets/scss/top-features.scss",
 		"assets/scss/_feedback-section.scss",
 		"assets/scss/_result-section.scss",
 		"assets/scss/_price-section.scss",
